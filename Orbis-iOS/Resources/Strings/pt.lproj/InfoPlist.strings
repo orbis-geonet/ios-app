@@ -1,0 +1,13 @@
+/* 
+  InfoPlist.strings
+  Orbis-iOS
+
+  Created by Nikesh Shakya on 29/12/2021.
+  
+*/
+NSCameraUsageDescription = "Orbis would like to use your camera to upload profile picture.";
+NSLocationAlwaysAndWhenInUseUsageDescription = "Orbis vai usar sua localização para mostrar os grupos sociais ao seu redor dentro do app. Seus dados de localização não serão gravados.";
+NSLocationAlwaysUsageDescription = "Orbis vai usar sua localização para mostrar os grupos sociais ao seu redor dentro do app. Seus dados de localização não serão gravados.";
+NSLocationWhenInUseUsageDescription = "Orbis vai usar sua localização para mostrar os grupos sociais ao seu redor dentro do app. Seus dados de localização não serão gravados.";
+NSMicrophoneUsageDescription = "Orbis would like to use your microphone for audio recordings.";
+NSPhotoLibraryUsageDescription = "Orbis would like to use your photo library to upload profile picture.";

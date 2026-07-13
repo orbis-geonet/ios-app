@@ -1,0 +1,336 @@
+/*
+  Localizable.strings
+  Orbis-iOS
+
+  Created by Nikesh Shakya on 28/09/2021.
+  
+*/
+
+// App Permission
+"Enable Location Service" = "Enable Location Service";
+"Please turn on location service from device settings." = "Please turn on location service from device settings.";
+
+// Authentication
+"E-mail" = "Електронна пошта";
+"Password" = "Пароль";
+"Forgot Password?" = "Забули пароль?";
+"Login" = "Увійти";
+"Full Name" = "Full Name";
+"Name" = "Ім'я";
+"Date of Birth" = "Дата народження";
+"Gender" = "Стать";
+"Register" = "Зареєструватися";
+"Your account has been created successfully" = "Your account has been created successfully";
+"Select Gender" = "Select Gender";
+"Just taking a peek ?" = "Just taking a peek ?";
+"To get the most out of ORBIS, sign up and take part ... it's fast and free" = "To get the most out of ORBIS, sign up and take part ... it's fast and free";
+"register" = "Зареєструватися";
+"fast and free" = "fast and free";
+"I want to sign up" = "Я хочу зареєструватися";
+"I already have an account" = "У мене вже є акаунт";
+"Login with" = "Login with";
+"Forgot your password ?" = "Forgot your password ?";
+"Don't worry, we sent an e-mail to your registered email address so you can reset your password" = "Не хвилюйтеся, ми надіслали лист на вашу зареєстровану адресу електронної пошти, щоб ви могли скинути пароль";
+"Send" = "Send";
+"Your reset password link was successfully sent !" = "Your reset password link was successfully sent !";
+"You will receive an email to reset your password. Just click on the link and follow the steps !" = "Ви отримаєте електронний лист для скидання пароля. Просто натисніть на посилання та виконайте кроки!";
+
+// Onboarding
+"Welcome to Orbis!" = "Welcome to Orbis!";
+"A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them." = "A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them.";
+"Start" = "Початок";
+
+// Feed
+"My Feed" = "Моя стрічка";
+"Nearby" = "Поблизу";
+
+// Group
+"Leave" = "Покинути";
+"Follow" = "Стежити";
+"Unfollow" = "Не стежити";
+"Report" = "Поскаржитися";
+"Delete" = "Видалити";
+"Share" = "Поділитися";
+"Choose a group color" = "Choose a group color";
+"Type your group name" = "Type your group name";
+"Tell us more about your group.." = "Tell us more about your group..";
+"Create Group" = "Create Group";
+"It's prohibited to create groups of commercial establishments" = "It's prohibited to create groups of commercial establishments";
+"Make" = "Make";
+"admin" = "admin";
+"Remove" = "Видалити";
+"from admin" = "from admin";
+"Ban" = "Ban";
+"Unban" = "Unban";
+"Places" = "Місця";
+"Members" = "Учасники";
+"Status" = "Статус";
+"Groups" = "Groups";
+"Type here to search groups" = "Type here to search groups";
+"Owned Places" = "Власні місця";
+"Group" = "Group";
+
+// Profile
+"Photos" = "Фото";
+"Posts" = "Дописи";
+"Followers" = "Підписники";
+"Following" = "Підписки";
+"Follow" = "Стежити";
+"Unfollow" = "Не стежити";
+"Requested" = "Запит надіслано";
+"Connect with Instagram" = "Підключити Instagram";
+"Connected with instagram" = "Connected with instagram";
+"Connect with Instagram or add photos straight to Orbis" = "Connect with Instagram or add photos straight to Orbis";
+"There are no publications" = "Публікацій немає";
+"This Account is Private" = "Цей акаунт приватний";
+"Follow this account to see their photos and posts" = "Підпишіться на цей акаунт, щоб бачити його фото та дописи";
+
+// Places
+"Get Direction" = "Прокласти маршрут";
+"Enter the name of the place here..." = "Enter the name of the place here...";
+"Type here the name of the place.." = "Type here the name of the place..";
+"Type the exact address (Optional)" = "Type the exact address (Optional)";
+"Groups in this place" = "Groups in this place";
+"Create Place" = "Створити місце";
+"Create place" = "Створити місце";
+"This place has no description" = "This place has no description";
+"Choose a group" = "Choose a group";
+"Edit Place Description" = "Редагувати опис місця";
+
+// Events
+"Events" = "Події";
+"Event" = "Подія";
+"Your Event" = "Ваша подія";
+"Event title" = "Назва події";
+"Address, street, number, neighborhood, city" = "Адреса, вулиця, номер, район, місто";
+"Date" = "Дата";
+"Start" = "Початок";
+"End" = "Кінець";
+"Event description" = "Опис події";
+"Publish event" = "Publish event";
+"Select Start Time" = "Виберіть час початку";
+"Select End Time" = "Select End Time";
+"I'm going!" = "Я піду!";
+"I'll go" = "Я піду!";
+"Attend" = "Attend";
+"Confirmed" = "Підтверджено";
+"From" = "З";
+"to" = "до";
+
+// Checkin
+"Check-in" = "Check-in";
+"Check-in" = "Check-in";
+"Search places nearby" = "Шукати місця поблизу";
+
+// Post
+"Would like to publish as:" = "Would like to publish as:";
+"Type here about the place, group or whatever you want..." = "Type here about the place, group or whatever you want...";
+"Photo" = "Фото";
+"Check-in" = "Check-in";
+"Video" = "Відео";
+"Post" = "Опублікувати";
+"Your Post" = "Ваш допис";
+"Choose a group or user" = "Choose a group or user";
+"Choose a group" = "Choose a group";
+"Recording..." = "Recording...";
+"Recording stopped." = "Recording stopped.";
+"Report post" = "Report post";
+"Report" = "Поскаржитися";
+"Help us understand what's happening with this post. How would you describe it?" = "Допоможіть нам зрозуміти, що відбувається з цим дописом. Як би ви його описали?";
+"Report group" = "Report group";
+"Help us understand what's wrong with this group. How would you describe it?" = "Help us understand what's wrong with this group. How would you describe it?";
+"Report profile" = "Report profile";
+"Help us understand what's wrong with this profile. How would you describe it?" = "Help us understand what's wrong with this profile. How would you describe it?";
+"Report place" = "Report place";
+"Help us understand what's wrong with this place. How would you describe it?" = "Help us understand what's wrong with this place. How would you describe it?";
+"Comments" = "Коментарі";
+"Write your comment." = "Напишіть свій коментар…";
+
+// Messaging
+"Messages" = "Повідомлення";
+"You" = "You";
+"sent an image" = "sent an image";
+"sent a video" = "sent a video";
+"Active now" = "Active now";
+"Online" = "Онлайн";
+"Just now" = "Just now";
+"years ago" = "years ago";
+"year ago" = "year ago";
+"months ago" = "months ago";
+"month ago" = "місяць тому";
+"weeks ago" = "weeks ago";
+"week ago" = "тиждень тому";
+"days ago" = "днів тому";
+"day ago" = "day ago";
+"hours ago" = "hours ago";
+"hour ago" = "годину тому";
+"minutes ago" = "хвилин тому";
+"minute ago" = "minute ago";
+"seconds ago" = "seconds ago";
+
+// Notification
+"News" = "Новини";
+"Pending" = "В очікуванні";
+"Notification" = "Сповіщення";
+"Accept" = "Прийняти";
+
+// Settings
+"Profile" = "Профіль";
+"Social" = "Соцмережі";
+"Preferences" = "Уподобання";
+"Settings" = "Налаштування";
+"Comment" = "Коментар";
+"Rate app" = "Оцінити застосунок";
+"Invite friends" = "Запросити друзів";
+"Terms of service" = "Умови надання послуг";
+"Privacy policy" = "Політика конфіденційності";
+"Delete my Account" = "Видалити мій акаунт";
+"Logout" = "Вийти";
+"Manage my groups (admin)" = "Manage my groups (admin)";
+"Places you follow" = "Місця, за якими ви стежите";
+"Your account privacy" = "Your account privacy";
+"Make my account private" = "Зробити мій акаунт приватним";
+"Language" = "Мова";
+"Push notification" = "Push-сповіщення";
+"ON" = "Увімк.";
+"OFF" = "Вимк.";
+"Enter the language name" = "Enter the language name";
+
+// Language
+"Device language" = "Мова пристрою";
+"English" = "Англійська";
+"Chinese" = "Chinese";
+"Ukranian" = "Ukranian";
+"Nepali" = "Nepali";
+"Hindi" = "Hindi";
+"Indonesian" = "Indonesian";
+"Japanese" = "Japanese";
+"Korean" = "Korean";
+"Malay" = "Malay";
+"Russian" = "Russian";
+"Thai" = "Thai";
+"Urdu" = "Urdu";
+"Vietnamise" = "Vietnamise";
+"Arabic" = "Arabic";
+"Polish" = "Polish";
+"Swahili" = "Swahili";
+"Italian" = "Italian";
+"French" = "French";
+"German" = "German";
+"Turkish" = "Turkish";
+"Spanish" = "Spanish";
+"Portuguese" = "Португальська";
+
+// Confirmation popup
+"Confirm delete?" = "Confirm delete?";
+"Are you sure you want to delete this post? Once deleted, it cannot be undone." = "Ви впевнені, що хочете видалити цей допис? Після видалення це неможливо скасувати.";
+"Confirm delete group?" = "Confirm delete group?";
+"Are you sure you want to delete this group? Once deleted, it cannot be undone." = "Are you sure you want to delete this group? Once deleted, it cannot be undone.";
+"New Admin Required" = "New Admin Required";
+"Do you want to assign a new admin from members list before leaving this group?" = "Do you want to assign a new admin from members list before leaving this group?";
+"Confirm leave group?" = "Confirm leave group?";
+"Are you sure, you want to leave this group?" = "Are you sure, you want to leave this group?";
+"Confirm assign" = "Confirm assign";
+"Are you sure you want to assign" = "Are you sure you want to assign";
+"as new admin of the group?" = "as new admin of the group?";
+"Account deletion" = "Видалення акаунта";
+"Are you sure you want to delete your account? Once deleted, it cannot be recovered." = "Ви впевнені, що хочете видалити свій акаунт? Після видалення його неможливо відновити";
+
+// Success Message
+"Post has been reported successfully" = "Post has been reported successfully";
+"Group has been reported successfully" = "Group has been reported successfully";
+"has been deleted." = "has been deleted.";
+"Password has been changed." = "Password has been changed.";
+
+// Common
+"Error" = "Error";
+"this user" = "this user";
+"Feed" = "Стрічка";
+"Cancel" = "Скасувати";
+"Ok" = "Ok";
+"Upload photo" = "Завантажити фото";
+"Change Photo" = "Змінити фото";
+"Save changes" = "Save changes";
+"Change Password" = "Змінити пароль";
+"user" = "user";
+"Select option" = "Select option";
+"Select Date of Birth" = "Select Date of Birth";
+"Select Date" = "Select Date";
+"Search" = "Пошук";
+"Results" = "Results";
+"Understood" = "Зрозуміло";
+"View more" = "показати більше";
+"View less" = "показати менше";
+"Save" = "Зберегти";
+"Close" = "Close";
+"Enter your text" = "Введіть текст";
+"Yes" = "Так";
+"No" = "Ні";
+"Warning" = "Warning";
+
+// App Error Strings
+
+"Couldn't complete your request." = "Couldn't complete your request.";
+"Google Sign-in failed." = "Google Sign-in failed.";
+"Cannot login at the moment!" = "Cannot login at the moment!";
+"Email or password is invalid" = "Email or password is invalid";
+"Feed is empty." = "Feed is empty.";
+"News feed is empty." = "News feed is empty.";
+"No post has been uploaded to this group yet." = "No post has been uploaded to this group yet.";
+"User feed is empty." = "User feed is empty.";
+"No post has been uploaded to this place yet." = "No post has been uploaded to this place yet.";
+"Could not load video" = "Could not load video";
+"Cannot play audio" = "Cannot play audio";
+
+"You have been banned from posting." = "You have been banned from posting.";
+"Invalid link provided" = "Invalid link provided";
+"Invalid post type" = "Invalid post type";
+"Please select date of event first." = "Please select date of event first.";
+"Please select start time of event first." = "Please select start time of event first.";
+"Email app not available." = "Email app not available.";
+
+"Data is invalid" = "Data is invalid";
+"Null response data" = "Null response data";
+"Contact administrator" = "Contact administrator";
+"Your request has failed." = "Your request has failed.";
+
+"Not found" = "Not found";
+"Not authorized" = "Not authorized";
+"Request timeout" = "Request timeout";
+"An error occurred" = "An error occurred";
+
+"Full name is empty" = "Full name is empty";
+"Email is empty" = "Email is empty";
+"Password is empty" = "Password is empty";
+"New Password is empty" = "New password is Empty";
+"Passwords do no match." = "Passwords do no match.";
+"Email address is not valid" = "Email address is not valid";
+"Password length must be greater than or equal to 8" = "Password length must be greater than or equal to 8";
+"One or more required field is missing" = "One or more required field is missing";
+"You are not authorized to perform this operation." = "You are not authorized to perform this operation.";
+"No user found for given email" = "No user found for given email";
+"This email-id is associated with social media login" = "This email-id is associated with social media login";
+"Group name is empty" = "Group name is empty";
+"Group description is empty" = "Group description is empty";
+"Post description is empty" = "Post description is empty";
+"Please select at least 1 image" = "Please select at least 1 image";
+"Place name is empty" = "Place name is empty";
+"Please select group before proceeding." = "Please select group before proceeding.";
+"Please identify place type first." = "Please identify place type first.";
+"Please select place location." = "Please select place location.";
+"Please record audio before proceeding." = "Please record audio before proceeding.";
+"Please select video before proceeding." = "Please select video before proceeding.";
+"Please select place to checkin" = "Please select place to checkin";
+"Please select publisher before proceeding." = "Please select publisher before proceeding.";
+"Please enter event title" = "Please enter event title";
+"Please enter event details" = "Будь ласка, введіть деталі події";
+"Please re-check your scheduled date and time" = "Please re-check your scheduled date and time";
+"Date of Birth is required" = "Date of Birth is required";
+"Gender is empty" = "Gender is empty";
+"Please edit data before saving" = "Please edit data before saving";
+
+"You have already joined this group" = "You have already joined this group";
+"You are not a member of this group" = "You are not a member of this group";
+"You have already followed this group" = "You have already followed this group";
+"You have not followed this group yet" = "You have not followed this group yet";
+"You are not authorized to perform this action" = "You are not authorized to perform this action";

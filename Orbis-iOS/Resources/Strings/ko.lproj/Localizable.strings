@@ -1,0 +1,336 @@
+/*
+  Localizable.strings
+  Orbis-iOS
+
+  Created by Nikesh Shakya on 28/09/2021.
+  
+*/
+
+// App Permission
+"Enable Location Service" = "Enable Location Service";
+"Please turn on location service from device settings." = "Please turn on location service from device settings.";
+
+// Authentication
+"E-mail" = "이메일";
+"Password" = "비밀번호";
+"Forgot Password?" = "비밀번호를 잊으셨나요?";
+"Login" = "로그인";
+"Full Name" = "Full Name";
+"Name" = "이름";
+"Date of Birth" = "생년월일";
+"Gender" = "성별";
+"Register" = "등록";
+"Your account has been created successfully" = "Your account has been created successfully";
+"Select Gender" = "Select Gender";
+"Just taking a peek ?" = "Just taking a peek ?";
+"To get the most out of ORBIS, sign up and take part ... it's fast and free" = "To get the most out of ORBIS, sign up and take part ... it's fast and free";
+"register" = "등록";
+"fast and free" = "fast and free";
+"I want to sign up" = "가입하고 싶어요";
+"I already have an account" = "이미 계정이 있어요";
+"Login with" = "Login with";
+"Forgot your password ?" = "Forgot your password ?";
+"Don't worry, we sent an e-mail to your registered email address so you can reset your password" = "걱정하지 마세요. 비밀번호를 재설정할 수 있도록 등록된 이메일 주소로 메일을 보냈습니다";
+"Send" = "Send";
+"Your reset password link was successfully sent !" = "Your reset password link was successfully sent !";
+"You will receive an email to reset your password. Just click on the link and follow the steps !" = "비밀번호 재설정 이메일을 받게 됩니다. 링크를 클릭하고 안내를 따르세요!";
+
+// Onboarding
+"Welcome to Orbis!" = "Welcome to Orbis!";
+"A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them." = "A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them.";
+"Start" = "시작";
+
+// Feed
+"My Feed" = "내 피드";
+"Nearby" = "주변";
+
+// Group
+"Leave" = "나가기";
+"Follow" = "팔로우";
+"Unfollow" = "언팔로우";
+"Report" = "신고";
+"Delete" = "삭제";
+"Share" = "공유";
+"Choose a group color" = "Choose a group color";
+"Type your group name" = "Type your group name";
+"Tell us more about your group.." = "Tell us more about your group..";
+"Create Group" = "Create Group";
+"It's prohibited to create groups of commercial establishments" = "It's prohibited to create groups of commercial establishments";
+"Make" = "Make";
+"admin" = "admin";
+"Remove" = "제거";
+"from admin" = "from admin";
+"Ban" = "Ban";
+"Unban" = "Unban";
+"Places" = "장소";
+"Members" = "멤버";
+"Status" = "상태";
+"Groups" = "Groups";
+"Type here to search groups" = "Type here to search groups";
+"Owned Places" = "소유한 장소";
+"Group" = "Group";
+
+// Profile
+"Photos" = "사진";
+"Posts" = "게시물";
+"Followers" = "팔로워";
+"Following" = "팔로잉";
+"Follow" = "팔로우";
+"Unfollow" = "언팔로우";
+"Requested" = "요청됨";
+"Connect with Instagram" = "Instagram 연결";
+"Connected with instagram" = "Connected with instagram";
+"Connect with Instagram or add photos straight to Orbis" = "Connect with Instagram or add photos straight to Orbis";
+"There are no publications" = "게시물이 없습니다";
+"This Account is Private" = "이 계정은 비공개입니다";
+"Follow this account to see their photos and posts" = "이 계정의 사진과 게시물을 보려면 팔로우하세요";
+
+// Places
+"Get Direction" = "길찾기";
+"Enter the name of the place here..." = "Enter the name of the place here...";
+"Type here the name of the place.." = "Type here the name of the place..";
+"Type the exact address (Optional)" = "Type the exact address (Optional)";
+"Groups in this place" = "Groups in this place";
+"Create Place" = "장소 만들기";
+"Create place" = "장소 만들기";
+"This place has no description" = "This place has no description";
+"Choose a group" = "Choose a group";
+"Edit Place Description" = "장소 설명 편집";
+
+// Events
+"Events" = "이벤트";
+"Event" = "이벤트";
+"Your Event" = "내 이벤트";
+"Event title" = "이벤트 제목";
+"Address, street, number, neighborhood, city" = "주소, 도로명, 번지, 동네, 도시";
+"Date" = "날짜";
+"Start" = "시작";
+"End" = "종료";
+"Event description" = "이벤트 설명";
+"Publish event" = "Publish event";
+"Select Start Time" = "시작 시간 선택";
+"Select End Time" = "Select End Time";
+"I'm going!" = "참여합니다!";
+"I'll go" = "참여할게요!";
+"Attend" = "Attend";
+"Confirmed" = "확정됨";
+"From" = "시작";
+"to" = "~";
+
+// Checkin
+"Check-in" = "Check-in";
+"Check-in" = "Check-in";
+"Search places nearby" = "주변 장소 검색";
+
+// Post
+"Would like to publish as:" = "Would like to publish as:";
+"Type here about the place, group or whatever you want..." = "Type here about the place, group or whatever you want...";
+"Photo" = "사진";
+"Check-in" = "Check-in";
+"Video" = "동영상";
+"Post" = "게시";
+"Your Post" = "내 게시물";
+"Choose a group or user" = "Choose a group or user";
+"Choose a group" = "Choose a group";
+"Recording..." = "Recording...";
+"Recording stopped." = "Recording stopped.";
+"Report post" = "Report post";
+"Report" = "신고";
+"Help us understand what's happening with this post. How would you describe it?" = "이 게시물에 무슨 일이 일어나고 있는지 알려주세요. 어떻게 설명하시겠어요?";
+"Report group" = "Report group";
+"Help us understand what's wrong with this group. How would you describe it?" = "Help us understand what's wrong with this group. How would you describe it?";
+"Report profile" = "Report profile";
+"Help us understand what's wrong with this profile. How would you describe it?" = "Help us understand what's wrong with this profile. How would you describe it?";
+"Report place" = "Report place";
+"Help us understand what's wrong with this place. How would you describe it?" = "Help us understand what's wrong with this place. How would you describe it?";
+"Comments" = "댓글";
+"Write your comment." = "댓글을 작성하세요 …";
+
+// Messaging
+"Messages" = "메시지";
+"You" = "You";
+"sent an image" = "sent an image";
+"sent a video" = "sent a video";
+"Active now" = "Active now";
+"Online" = "온라인";
+"Just now" = "Just now";
+"years ago" = "years ago";
+"year ago" = "year ago";
+"months ago" = "months ago";
+"month ago" = "개월 전";
+"weeks ago" = "weeks ago";
+"week ago" = "주 전";
+"days ago" = "일 전";
+"day ago" = "day ago";
+"hours ago" = "hours ago";
+"hour ago" = "시간 전";
+"minutes ago" = "분 전";
+"minute ago" = "minute ago";
+"seconds ago" = "seconds ago";
+
+// Notification
+"News" = "소식";
+"Pending" = "대기 중";
+"Notification" = "알림";
+"Accept" = "수락";
+
+// Settings
+"Profile" = "프로필";
+"Social" = "소셜";
+"Preferences" = "환경설정";
+"Settings" = "설정";
+"Comment" = "댓글";
+"Rate app" = "앱 평가";
+"Invite friends" = "친구 초대";
+"Terms of service" = "서비스 이용약관";
+"Privacy policy" = "개인정보 처리방침";
+"Delete my Account" = "내 계정 삭제";
+"Logout" = "로그아웃";
+"Manage my groups (admin)" = "Manage my groups (admin)";
+"Places you follow" = "팔로우하는 장소";
+"Your account privacy" = "Your account privacy";
+"Make my account private" = "내 계정을 비공개로 전환";
+"Language" = "언어";
+"Push notification" = "푸시 알림";
+"ON" = "켜짐";
+"OFF" = "꺼짐";
+"Enter the language name" = "Enter the language name";
+
+// Language
+"Device language" = "기기 언어";
+"English" = "영어";
+"Chinese" = "Chinese";
+"Ukranian" = "Ukranian";
+"Nepali" = "Nepali";
+"Hindi" = "Hindi";
+"Indonesian" = "Indonesian";
+"Japanese" = "Japanese";
+"Korean" = "Korean";
+"Malay" = "Malay";
+"Russian" = "Russian";
+"Thai" = "Thai";
+"Urdu" = "Urdu";
+"Vietnamise" = "Vietnamise";
+"Arabic" = "Arabic";
+"Polish" = "Polish";
+"Swahili" = "Swahili";
+"Italian" = "Italian";
+"French" = "French";
+"German" = "German";
+"Turkish" = "Turkish";
+"Spanish" = "Spanish";
+"Portuguese" = "포르투갈어";
+
+// Confirmation popup
+"Confirm delete?" = "Confirm delete?";
+"Are you sure you want to delete this post? Once deleted, it cannot be undone." = "이 게시물을 정말 삭제하시겠습니까? 삭제하면 되돌릴 수 없습니다.";
+"Confirm delete group?" = "Confirm delete group?";
+"Are you sure you want to delete this group? Once deleted, it cannot be undone." = "Are you sure you want to delete this group? Once deleted, it cannot be undone.";
+"New Admin Required" = "New Admin Required";
+"Do you want to assign a new admin from members list before leaving this group?" = "Do you want to assign a new admin from members list before leaving this group?";
+"Confirm leave group?" = "Confirm leave group?";
+"Are you sure, you want to leave this group?" = "Are you sure, you want to leave this group?";
+"Confirm assign" = "Confirm assign";
+"Are you sure you want to assign" = "Are you sure you want to assign";
+"as new admin of the group?" = "as new admin of the group?";
+"Account deletion" = "계정 삭제";
+"Are you sure you want to delete your account? Once deleted, it cannot be recovered." = "계정을 정말 삭제하시겠습니까? 삭제하면 복구할 수 없습니다";
+
+// Success Message
+"Post has been reported successfully" = "Post has been reported successfully";
+"Group has been reported successfully" = "Group has been reported successfully";
+"has been deleted." = "has been deleted.";
+"Password has been changed." = "Password has been changed.";
+
+// Common
+"Error" = "Error";
+"this user" = "this user";
+"Feed" = "피드";
+"Cancel" = "취소";
+"Ok" = "확인";
+"Upload photo" = "사진 업로드";
+"Change Photo" = "사진 변경";
+"Save changes" = "Save changes";
+"Change Password" = "비밀번호 변경";
+"user" = "user";
+"Select option" = "Select option";
+"Select Date of Birth" = "Select Date of Birth";
+"Select Date" = "Select Date";
+"Search" = "검색";
+"Results" = "Results";
+"Understood" = "이해했습니다";
+"View more" = "더 보기";
+"View less" = "간략히 보기";
+"Save" = "저장";
+"Close" = "Close";
+"Enter your text" = "텍스트를 입력하세요";
+"Yes" = "예";
+"No" = "아니요";
+"Warning" = "Warning";
+
+// App Error Strings
+
+"Couldn't complete your request." = "Couldn't complete your request.";
+"Google Sign-in failed." = "Google Sign-in failed.";
+"Cannot login at the moment!" = "Cannot login at the moment!";
+"Email or password is invalid" = "Email or password is invalid";
+"Feed is empty." = "Feed is empty.";
+"News feed is empty." = "News feed is empty.";
+"No post has been uploaded to this group yet." = "No post has been uploaded to this group yet.";
+"User feed is empty." = "User feed is empty.";
+"No post has been uploaded to this place yet." = "No post has been uploaded to this place yet.";
+"Could not load video" = "Could not load video";
+"Cannot play audio" = "Cannot play audio";
+
+"You have been banned from posting." = "You have been banned from posting.";
+"Invalid link provided" = "Invalid link provided";
+"Invalid post type" = "Invalid post type";
+"Please select date of event first." = "Please select date of event first.";
+"Please select start time of event first." = "Please select start time of event first.";
+"Email app not available." = "Email app not available.";
+
+"Data is invalid" = "Data is invalid";
+"Null response data" = "Null response data";
+"Contact administrator" = "Contact administrator";
+"Your request has failed." = "Your request has failed.";
+
+"Not found" = "Not found";
+"Not authorized" = "Not authorized";
+"Request timeout" = "Request timeout";
+"An error occurred" = "An error occurred";
+
+"Full name is empty" = "Full name is empty";
+"Email is empty" = "Email is empty";
+"Password is empty" = "Password is empty";
+"New Password is empty" = "New password is Empty";
+"Passwords do no match." = "Passwords do no match.";
+"Email address is not valid" = "Email address is not valid";
+"Password length must be greater than or equal to 8" = "Password length must be greater than or equal to 8";
+"One or more required field is missing" = "One or more required field is missing";
+"You are not authorized to perform this operation." = "You are not authorized to perform this operation.";
+"No user found for given email" = "No user found for given email";
+"This email-id is associated with social media login" = "This email-id is associated with social media login";
+"Group name is empty" = "Group name is empty";
+"Group description is empty" = "Group description is empty";
+"Post description is empty" = "Post description is empty";
+"Please select at least 1 image" = "Please select at least 1 image";
+"Place name is empty" = "Place name is empty";
+"Please select group before proceeding." = "Please select group before proceeding.";
+"Please identify place type first." = "Please identify place type first.";
+"Please select place location." = "Please select place location.";
+"Please record audio before proceeding." = "Please record audio before proceeding.";
+"Please select video before proceeding." = "Please select video before proceeding.";
+"Please select place to checkin" = "Please select place to checkin";
+"Please select publisher before proceeding." = "Please select publisher before proceeding.";
+"Please enter event title" = "Please enter event title";
+"Please enter event details" = "이벤트 세부 정보를 입력하세요";
+"Please re-check your scheduled date and time" = "Please re-check your scheduled date and time";
+"Date of Birth is required" = "Date of Birth is required";
+"Gender is empty" = "Gender is empty";
+"Please edit data before saving" = "Please edit data before saving";
+
+"You have already joined this group" = "You have already joined this group";
+"You are not a member of this group" = "You are not a member of this group";
+"You have already followed this group" = "You have already followed this group";
+"You have not followed this group yet" = "You have not followed this group yet";
+"You are not authorized to perform this action" = "You are not authorized to perform this action";

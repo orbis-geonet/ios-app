@@ -1,0 +1,450 @@
+/*
+  Localizable.strings
+  Orbis-iOS
+
+  Created by Nikesh Shakya on 28/09/2021.
+  
+*/
+
+// App Permission
+"Enable Location Service" = "Enable Location Service";
+"Please turn on location service from device settings." = "Please turn on location service from device settings.";
+
+// Authentication
+"E-mail" = "E-mail";
+"Password" = "Password";
+"Forgot Password?" = "Forgot Password?";
+"Login" = "Login";
+"Full Name" = "Full Name";
+"Name" = "Name";
+"Date of Birth" = "Date of Birth";
+"Gender" = "Gender";
+"Register" = "Register";
+"Your account has been created successfully" = "Your account has been created successfully";
+"Select Gender" = "Select Gender";
+"Just taking a peek ?" = "Just taking a peek ?";
+"To get the most out of ORBIS, sign up and take part ... it's fast and free" = "To get the most out of ORBIS, sign up and take part ... it's fast and free";
+"register" = "register";
+"fast and free" = "fast and free";
+"I want to sign up" = "I want to sign up";
+"I already have an account" = "I already have an account";
+"Login with" = "Login with";
+"Forgot your password ?" = "Forgot your password ?";
+"Don't worry, we sent an e-mail to your registered email address so you can reset your password" = "Don't worry, we sent an e-mail to your registered email address so you can reset your password";
+"Send" = "Send";
+"Your reset password link was successfully sent !" = "Your reset password link was successfully sent !";
+"You will receive an email to reset your password. Just click on the link and follow the steps !" = "You will receive an email to reset your password. Just click on the link and follow the steps !";
+"by clicking register you accept the " = "by clicking register you accept the ";
+
+// Onboarding
+"Welcome to Orbis!" = "Welcome to Orbis!";
+"A geolocation social network created to map the social tribes in your region. With Orbis, you can check where those tribes are in real time and get to know them." = "A geolocation social network created to map the social tribes in your region. With Orbis, you can check where those tribes are in real time and get to know them.";
+"Start" = "Start";
+
+// Feed
+"My Feed" = "My Feed";
+"Nearby" = "Nearby";
+"Unfollow group stories" = "Unfollow tribe stories";
+
+// Group
+"Leave" = "Leave";
+"Follow" = "Follow";
+"Unfollow" = "Unfollow";
+"Report" = "Report";
+"Delete" = "Delete";
+"Share" = "Share";
+"Choose a group color" = "Choose a tribe color";
+"Type your group name" = "Type your tribe name";
+"Tell us more about your group.." = "Tell us more about your tribe..";
+"Create Group" = "Create Tribe";
+"It's prohibited to create groups of commercial establishments" = "It's prohibited to create tribes of commercial establishments";
+"Make" = "Make";
+"admin" = "admin";
+"Remove" = "Remove";
+"from admin" = "from admin";
+"Ban" = "Ban";
+"Unban" = "Unban";
+"Places" = "Places";
+"Members" = "Members";
+"Status" = "Status";
+"Groups" = "Tribes";
+"Type here to search groups" = "Search Local Tribes";
+"Search the name of the group here" = "Search the name of the tribe here";
+"Owned Places" = "Owned Places";
+"Group" = "Tribe";
+"Remove from group" = "Remove from tribe";
+"Unhide stories" = "Unhide stories";
+
+// Profile
+"Users" = "Users";
+"Search users" = "Search users";
+"Photos" = "Photos";
+"Posts" = "Posts";
+"Followers" = "Followers";
+"Following" = "Following";
+"Follow" = "Follow";
+"Unfollow" = "Unfollow";
+"Requested" = "Requested";
+"Connect with Instagram" = "Connect with Instagram";
+"Connected with instagram" = "Connected with instagram";
+"Connect with Instagram or add photos straight to Orbis" = "Connect with Instagram or add photos straight to Orbis";
+"There are no publications" = "There are no publications";
+"This Account is Private" = "This Account is Private";
+"Follow this account to see their photos and posts" = "Follow this account to see their photos and posts";
+"Remove Photo" = "Remove Photo";
+"Blocked User" = "Blocked User";
+"Something went wrong trying to fetch user information." = "Something went wrong trying to fetch user information.";
+"Block" = "Block";
+"Are you sure you want to block this user?" = "Are you sure you want to block this user?";
+
+// Places
+"Get Direction" = "Get Direction";
+"Enter the name of the place here..." = "Enter the name of the place here...";
+"Type here the name of the place.." = "Type here the name of the place..";
+"Type the exact address (Optional)" = "Type the exact address (Optional)";
+"Groups in this place" = "Tribes in this place";
+"Create Place" = "Create Place";
+"Create place" = "Create place";
+"This place does not have a description. To include one please press and hold here." = "This place does not have a description. To include one please press and hold here.";
+"Choose a group" = "Choose a tribe";
+"Edit Place Description" = "Edit Place Description";
+"Address" = "Address";
+"Telephone" = "Telephone";
+"Schedule" = "Schedule";
+"Website" = "Website";
+"Open in Maps" = "Open in Maps";
+"Call" = "Call";
+"Go to website" = "Go to website";
+"Update Opening Hours" = "Update Opening Hours";
+"Type here the address of the place.." = "Type here the address of the place..";
+"Enter contact detail for the place.." = "Enter contact detail for the place..";
+"Type here the website link of the place.." = "Type here the website link of the place..";
+"Select Open Time" = "Select Open Time";
+"Select Close Time" = "Select Close Time";
+"Review" = "Review";
+"How many stars would you like to give this place?" = "How many stars would you like to give this place?";
+
+// Events
+"Events" = "Events";
+"Event" = "Event";
+"Your Event" = "Your Event";
+"Event title" = "Event title";
+"Address, street, number, neighborhood, city" = "Address, street, number, neighborhood, city";
+"Date" = "Date";
+"Start" = "Start";
+"End" = "End";
+"Event description" = "Event description";
+"Publish event" = "Publish event";
+"Select Start Time" = "Select Start Time";
+"Select End Time" = "Select End Time";
+"I'm going!" = "I'm going!";
+"I'll go" = "I'll go";
+"Attend" = "Attend";
+"Confirmed" = "Confirmed";
+"From" = "From";
+"to" = "to";
+
+// Checkin
+"Check-in" = "Check-in";
+"Check-in" = "Check-in";
+"Search places nearby" = "Search places nearby";
+
+// Post
+"Would like to publish as:" = "Would like to publish as:";
+"Type here about the place, group or whatever you want..." = "Type here about the place, tribe or whatever you want...";
+"Photo" = "Photo";
+"Check-in" = "Check-in";
+"Video" = "Video";
+"Post" = "Post";
+"Your Post" = "Your Post";
+"Choose a group or user" = "Choose a tribe or user";
+"Choose a group" = "Choose a tribe";
+"Recording..." = "Recording...";
+"Recording stopped." = "Recording stopped.";
+"Report post" = "Report post";
+"Report" = "Report";
+"Help us understand what's happening with this post. How would you describe it?" = "Help us understand what's happening with this post. How would you describe it?";
+"Report group" = "Report tribe";
+"Help us understand what's wrong with this group. How would you describe it?" = "Help us understand what's wrong with this tribe. How would you describe it?";
+"Report profile" = "Report profile";
+"Help us understand what's wrong with this profile. How would you describe it?" = "Help us understand what's wrong with this profile. How would you describe it?";
+"Report place" = "Report place";
+"Help us understand what's wrong with this place. How would you describe it?" = "Help us understand what's wrong with this place. How would you describe it?";
+"Comments" = "Comments";
+"Write your comment." = "Write your comment.";
+
+// Messaging
+"Messages" = "Messages";
+"You" = "You";
+"sent an image" = "sent an image";
+"sent a video" = "sent a video";
+"Active now" = "Active now";
+"Online" = "Online";
+"Just now" = "Just now";
+"Type here." = "Type here.";
+"years ago" = "years ago";
+"year ago" = "year ago";
+"months ago" = "months ago";
+"month ago" = "month ago";
+"weeks ago" = "weeks ago";
+"week ago" = "week ago";
+"days ago" = "days ago";
+"day ago" = "day ago";
+"hours ago" = "hours ago";
+"hour ago" = "hour ago";
+"minutes ago" = "minutes ago";
+"minute ago" = "minute ago";
+"seconds ago" = "seconds ago";
+
+// Notification
+"News" = "News";
+"Pending" = "Pending";
+"Notification" = "Notification";
+"Accept" = "Accept";
+"has requested to follow" = "has requested to follow";
+
+// Settings
+"Profile" = "Profile";
+"Social" = "Social";
+"Preferences" = "Preferences";
+"Settings" = "Settings";
+"Comment" = "Comment";
+"Rate app" = "Rate app";
+"Invite friends" = "Invite friends";
+"Terms of service" = "Terms of service";
+"Privacy policy" = "Privacy policy";
+"Delete my Account" = "Delete my Account";
+"Logout" = "Logout";
+"Manage my groups (admin)" = "Manage my tribes (admin)";
+"Places you follow" = "Places you follow";
+"Your account privacy" = "Your account privacy";
+"Make my account private" = "Make my account private";
+"Language" = "Language";
+"Push notification" = "Push notification";
+"ON" = "ON";
+"OFF" = "OFF";
+"Enter the language name" = "Enter the language name";
+"Blocked list" = "Blocked list";
+
+// Language
+"Device language" = "Device language";
+"English" = "English";
+"Chinese" = "Chinese";
+"Ukranian" = "Ukranian";
+"Nepali" = "Nepali";
+"Hindi" = "Hindi";
+"Indonesian" = "Indonesian";
+"Japanese" = "Japanese";
+"Korean" = "Korean";
+"Malay" = "Malay";
+"Russian" = "Russian";
+"Thai" = "Thai";
+"Urdu" = "Urdu";
+"Vietnamise" = "Vietnamise";
+"Arabic" = "Arabic";
+"Polish" = "Polish";
+"Swahili" = "Swahili";
+"Italian" = "Italian";
+"French" = "French";
+"German" = "German";
+"Turkish" = "Turkish";
+"Spanish" = "Spanish";
+"Portuguese" = "Portuguese";
+
+// Confirmation popup
+"Confirm delete?" = "Confirm delete?";
+"Are you sure you want to delete this post? Once deleted, it cannot be undone." = "Are you sure you want to delete this post? Once deleted, it cannot be undone.";
+"Confirm delete group?" = "Confirm delete tribe?";
+"Are you sure you want to delete this group? Once deleted, it cannot be undone." = "Are you sure you want to delete this tribe? Once deleted, it cannot be undone.";
+"New Admin Required" = "New Admin Required";
+"Do you want to assign a new admin from members list before leaving this group?" = "Do you want to assign a new admin from members list before leaving this tribe?";
+"Confirm leave group?" = "Confirm leave tribe?";
+"Are you sure, you want to leave this group?" = "Are you sure, you want to leave this tribe?";
+"Confirm assign" = "Confirm assign";
+"Are you sure you want to assign" = "Are you sure you want to assign";
+"as new admin of the group?" = "as new admin of the tribe?";
+"Account deletion" = "Account deletion";
+"Are you sure you want to delete your account? Once deleted, it cannot be recovered." = "Are you sure you want to delete your account? Once deleted, it cannot be recovered.";
+
+// Success Message
+"Post has been reported successfully" = "Post has been reported successfully";
+"Group has been reported successfully" = "Tribe has been reported successfully";
+"Profile has been reported successfully" = "Profile has been reported successfully";
+"Place has been reported successfully" = "Place has been reported successfully";
+"has been deleted." = "has been deleted.";
+"Password has been changed." = "Password has been changed.";
+
+// Subscription
+"Purchase" = "Purchase";
+"Edit" = "Edit";
+"Activate Offer" = "Activate Offer";
+"Deactivate Offer" = "Deactivate Offer";
+"My purchases" = "My purchases";
+"Type the name of your offer" = "Type the name of your offer";
+"Tell us more about your offer" = "Tell us more about your offer";
+"Type benefit here" = "Type benefit here";
+"Price" = "Price";
+"Create Offer" = "Create Offer";
+"Edit Offer" = "Edit Offer";
+"Benefits of the offer" = "Benefits of the offer";
+"More benefits" = "More benefits";
+"Fees: %@ | Total: %@" = "Fees: %@ | Total: %@";
+"Activity" = "Activity";
+"Offer" = "Offer";
+"Update offer" = "Update offer";
+"Select Currency" = "Select Currency";
+"Are you sure you want to delete this benefit?" = "Are you sure you want to delete this benefit?";
+"Are you sure you want to delete this offer?" = "Are you sure you want to delete this offer?";
+"Are you sure you want to activate all offers?" = "Are you sure you want to activate all offers?";
+"Are you sure you want to deactivate all offers?" = "Are you sure you want to deactivate all offers?";
+"Are you sure you want to cancel this purchase?" = "Are you sure you want to cancel this purchase?";
+"Your purchase has been confirmed!" = "Your purchase has been confirmed!";
+"Management" = "Management";
+"Clients" = "Clients";
+"Offers" = "Offers";
+"Total Offers" = "Total Offers";
+"Total Revenue" = "Total Revenue";
+"Members Club" = "Members Club";
+"Revenue" = "Revenue";
+"Now you can create offers with social incentive for your group and monetize in the \"create offer button\"." = "Now you can create offers with social incentive for your tribe and monetize in the \"create offer button\".";
+"Now you can buy offers from the groups and receive gifts, benefits and discounts!" = "Now you can buy offers from the tribes and receive gifts, benefits and discounts!";
+"Month" = "Month";
+"Trimester" = "Trimester";
+"Semester" = "Semester";
+"Year" = "Year";
+"See codes" = "See codes";
+"in %@x, total: %@" = "in %@x, total: %@";
+"Quantity" = "Quantity";
+"Purchased Codes" = "Purchased Codes";
+"Code" =  "Code";
+"Choose the payment frequency" = "Choose the payment frequency";
+"Check photos" = "Check photos";
+"Photos" = "Photos";
+"Payment frequency" = "Payment frequency";
+"Yearly" = "Yearly";
+"Monthly" = "Monthly";
+"One Time" = "One Time";
+"Payment in installments" = "Payment in installments";
+"mon" = "mon";
+"yr" = "yr";
+
+// Common
+"Error" = "Error";
+"this user" = "this user";
+"Feed" = "Feed";
+"Cancel" = "Cancel";
+"Ok" = "Ok";
+"Upload photo" = "Upload photo";
+"Change Photo" = "Change Photo";
+"Save changes" = "Save changes";
+"Change Password" = "Change Password";
+"user" = "user";
+"Select option" = "Select option";
+"Select Date of Birth" = "Select Date of Birth";
+"Select Date" = "Select Date";
+"Search" = "Search";
+"Results" = "Results";
+"Understood" = "Understood";
+"View more" = "View more";
+"View less" = "View less";
+"Save" = "Save";
+"Close" = "Close";
+"Enter your text" = "Enter your text";
+"Yes" = "Yes";
+"No" = "No";
+"Warning" = "Warning";
+"User deleted" = "User deleted";
+"Sunday" = "Sunday";
+"Monday" = "Monday";
+"Tuesday" = "Tuesday";
+"Wednesday" = "Wednesday";
+"Thursday" = "Thursday";
+"Friday" = "Friday";
+"Saturday" = "Saturday";
+"Update" = "Update";
+"Text Copied!" = "Text Copied!";
+
+// App Error Strings
+"Invalid rating!" = "Invalid rating!";
+"Please fix highlighted error(s)" = "Please fix highlighted error(s)";
+"Couldn't complete your request." = "Couldn't complete your request.";
+"Google Sign-in failed." = "Google Sign-in failed.";
+"Cannot login at the moment!" = "Cannot login at the moment!";
+"Email or password is invalid" = "Email or password is invalid";
+"Feed is empty." = "Feed is empty.";
+"News feed is empty." = "News feed is empty.";
+"No post has been uploaded to this group yet." = "No post has been uploaded to this tribe yet.";
+"User feed is empty." = "User feed is empty.";
+"No post has been uploaded to this place yet." = "No post has been uploaded to this place yet.";
+"Could not load video" = "Could not load video";
+"Cannot play audio" = "Cannot play audio";
+
+"You have been banned from posting." = "You have been banned from posting.";
+"Invalid link provided" = "Invalid link provided";
+"Invalid post type" = "Invalid post type";
+"Please select date of event first." = "Please select date of event first.";
+"Please select start time of event first." = "Please select start time of event first.";
+"Email app not available." = "Email app not available.";
+
+"Data is invalid" = "Data is invalid";
+"Null response data" = "Null response data";
+"Contact administrator" = "Contact administrator";
+"Your request has failed." = "Your request has failed.";
+
+"Not found" = "Not found";
+"Not authorized" = "Not authorized";
+"Request timeout" = "Request timeout";
+"An error occurred" = "An error occurred";
+
+"Full name is empty" = "Full name is empty";
+"Email is empty" = "Email is empty";
+"Password is empty" = "Password is empty";
+"New Password is empty" = "New password is Empty";
+"Passwords do no match." = "Passwords do no match.";
+"Email address is not valid" = "Email address is not valid";
+"Password length must be greater than or equal to 8" = "Password length must be greater than or equal to 8";
+"One or more required field is missing" = "One or more required field is missing";
+"You are not authorized to perform this operation." = "You are not authorized to perform this operation.";
+"No user found for given email" = "No user found for given email";
+"This email-id is associated with social media login" = "This email-id is associated with social media login";
+"Group name is empty" = "Tribe name is empty";
+"Group description is empty" = "Tribe description is empty";
+"Group image is required" = "Tribe image is required";
+"Please chose group base color from available set of colors." = "Please chose tribe base color from available set of colors.";
+"Post description is empty" = "Post description is empty";
+"Please select at least 1 image" = "Please select at least 1 image";
+"Place name is empty" = "Place name is empty";
+"Please select group before proceeding." = "Please select tribe before proceeding.";
+"Please identify place type first." = "Please identify place type first.";
+"Please select place location." = "Please select place location.";
+"Please record audio before proceeding." = "Please record audio before proceeding.";
+"Please select video before proceeding." = "Please select video before proceeding.";
+"Please select place to checkin" = "Please select place to checkin";
+"Please select publisher before proceeding." = "Please select publisher before proceeding.";
+"Please enter event title" = "Please enter event title";
+"Please enter event details" = "Please enter event details";
+"Please re-check your scheduled date and time" = "Please re-check your scheduled date and time";
+"Date of Birth is required" = "Date of Birth is required";
+"Gender is empty" = "Gender is empty";
+"Please edit data before saving" = "Please edit data before saving";
+"Your account might have been deleted previously. Please revoke your Apple ID access to the app and retry again. If you still face the issue, please contact administration." = "Your account might have been deleted previously. Please revoke your Apple ID access to the app and retry again. If you still face the issue, please contact administration.";
+
+"You have already joined this group" = "You have already joined this tribe";
+"You are not a member of this group" = "You are not a member of this tribe";
+"You have already followed this group" = "You have already followed this tribe";
+"You have not followed this group yet" = "You have not followed this tribe yet";
+"You are not authorized to perform this action" = "You are not authorized to perform this action";
+"Group stories are already unhidden" = "Tribe stories are already unhidden";
+
+"Empty address." = "Empty address.";
+"Empty telephone." = "Empty telephone.";
+"Empty website." = "Empty website.";
+"Invalid website." = "Invalid website.";
+"Your account might have been deleted previously. Please revoke your Apple ID access to the app and retry again. If you still face the issue, please contact administration." = "Your account might have been deleted previously. Please revoke your Apple ID access to the app and retry again. If you still face the issue, please contact administration.";
+"Please enter subscription name." = "Please enter subscription name.";
+"Please enter subscription description." = "Please enter subscription description.";
+"Please enter valid price amount value." = "Please enter valid price amount value.";
+"Please select payment frequency." = "Please select payment frequency.";
+"Installment period should be within the range of %@ - %@" = "Installment period should be within the range of %@ - %@";
+"Tribal map is updating" = "Tribal map is updating";
+"Just a few more seconds" = "Just a few more seconds";

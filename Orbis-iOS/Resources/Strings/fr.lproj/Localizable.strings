@@ -1,0 +1,336 @@
+/*
+  Localizable.strings
+  Orbis-iOS
+
+  Created by Nikesh Shakya on 28/09/2021.
+  
+*/
+
+// App Permission
+"Enable Location Service" = "Enable Location Service";
+"Please turn on location service from device settings." = "Please turn on location service from device settings.";
+
+// Authentication
+"E-mail" = "E-mail";
+"Password" = "Mot de passe";
+"Forgot Password?" = "Mot de passe oublié ?";
+"Login" = "Connexion";
+"Full Name" = "Full Name";
+"Name" = "Nom";
+"Date of Birth" = "Date de naissance";
+"Gender" = "Genre";
+"Register" = "S'inscrire";
+"Your account has been created successfully" = "Your account has been created successfully";
+"Select Gender" = "Select Gender";
+"Just taking a peek ?" = "Just taking a peek ?";
+"To get the most out of ORBIS, sign up and take part ... it's fast and free" = "To get the most out of ORBIS, sign up and take part ... it's fast and free";
+"register" = "S'inscrire";
+"fast and free" = "fast and free";
+"I want to sign up" = "Je veux m'inscrire";
+"I already have an account" = "J'ai déjà un compte";
+"Login with" = "Login with";
+"Forgot your password ?" = "Forgot your password ?";
+"Don't worry, we sent an e-mail to your registered email address so you can reset your password" = "Ne vous inquiétez pas, nous avons envoyé un e-mail à votre adresse enregistrée afin que vous puissiez réinitialiser votre mot de passe";
+"Send" = "Send";
+"Your reset password link was successfully sent !" = "Your reset password link was successfully sent !";
+"You will receive an email to reset your password. Just click on the link and follow the steps !" = "Vous recevrez un e-mail pour réinitialiser votre mot de passe. Cliquez simplement sur le lien et suivez les étapes !";
+
+// Onboarding
+"Welcome to Orbis!" = "Welcome to Orbis!";
+"A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them." = "A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them.";
+"Start" = "Début";
+
+// Feed
+"My Feed" = "Mon fil";
+"Nearby" = "À proximité";
+
+// Group
+"Leave" = "Quitter";
+"Follow" = "Suivre";
+"Unfollow" = "Ne plus suivre";
+"Report" = "Signaler";
+"Delete" = "Supprimer";
+"Share" = "Partager";
+"Choose a group color" = "Choose a group color";
+"Type your group name" = "Type your group name";
+"Tell us more about your group.." = "Tell us more about your group..";
+"Create Group" = "Create Group";
+"It's prohibited to create groups of commercial establishments" = "It's prohibited to create groups of commercial establishments";
+"Make" = "Make";
+"admin" = "admin";
+"Remove" = "Retirer";
+"from admin" = "from admin";
+"Ban" = "Ban";
+"Unban" = "Unban";
+"Places" = "Lieux";
+"Members" = "Membres";
+"Status" = "Statut";
+"Groups" = "Groups";
+"Type here to search groups" = "Type here to search groups";
+"Owned Places" = "Lieux possédés";
+"Group" = "Group";
+
+// Profile
+"Photos" = "Photos";
+"Posts" = "Publications";
+"Followers" = "Abonnés";
+"Following" = "Abonnements";
+"Follow" = "Suivre";
+"Unfollow" = "Ne plus suivre";
+"Requested" = "Demandé";
+"Connect with Instagram" = "Se connecter avec Instagram";
+"Connected with instagram" = "Connected with instagram";
+"Connect with Instagram or add photos straight to Orbis" = "Connect with Instagram or add photos straight to Orbis";
+"There are no publications" = "Il n'y a aucune publication";
+"This Account is Private" = "Ce compte est privé";
+"Follow this account to see their photos and posts" = "Suivez ce compte pour voir ses photos et ses publications";
+
+// Places
+"Get Direction" = "Obtenir l'itinéraire";
+"Enter the name of the place here..." = "Enter the name of the place here...";
+"Type here the name of the place.." = "Type here the name of the place..";
+"Type the exact address (Optional)" = "Type the exact address (Optional)";
+"Groups in this place" = "Groups in this place";
+"Create Place" = "Créer un lieu";
+"Create place" = "Créer un lieu";
+"This place has no description" = "This place has no description";
+"Choose a group" = "Choose a group";
+"Edit Place Description" = "Modifier la description du lieu";
+
+// Events
+"Events" = "Événements";
+"Event" = "Événement";
+"Your Event" = "Votre événement";
+"Event title" = "Titre de l'événement";
+"Address, street, number, neighborhood, city" = "Adresse, rue, numéro, quartier, ville";
+"Date" = "Date";
+"Start" = "Début";
+"End" = "Fin";
+"Event description" = "Description de l'événement";
+"Publish event" = "Publish event";
+"Select Start Time" = "Sélectionnez l'heure de début";
+"Select End Time" = "Select End Time";
+"I'm going!" = "J'y vais !";
+"I'll go" = "J'y vais !";
+"Attend" = "Attend";
+"Confirmed" = "Confirmé";
+"From" = "De";
+"to" = "à";
+
+// Checkin
+"Check-in" = "Check-in";
+"Check-in" = "Check-in";
+"Search places nearby" = "Rechercher des lieux à proximité";
+
+// Post
+"Would like to publish as:" = "Would like to publish as:";
+"Type here about the place, group or whatever you want..." = "Type here about the place, group or whatever you want...";
+"Photo" = "Photo";
+"Check-in" = "Check-in";
+"Video" = "Vidéo";
+"Post" = "Publier";
+"Your Post" = "Votre publication";
+"Choose a group or user" = "Choose a group or user";
+"Choose a group" = "Choose a group";
+"Recording..." = "Recording...";
+"Recording stopped." = "Recording stopped.";
+"Report post" = "Report post";
+"Report" = "Signaler";
+"Help us understand what's happening with this post. How would you describe it?" = "Aidez-nous à comprendre ce qui se passe avec cette publication. Comment la décririez-vous ?";
+"Report group" = "Report group";
+"Help us understand what's wrong with this group. How would you describe it?" = "Help us understand what's wrong with this group. How would you describe it?";
+"Report profile" = "Report profile";
+"Help us understand what's wrong with this profile. How would you describe it?" = "Help us understand what's wrong with this profile. How would you describe it?";
+"Report place" = "Report place";
+"Help us understand what's wrong with this place. How would you describe it?" = "Help us understand what's wrong with this place. How would you describe it?";
+"Comments" = "Commentaires";
+"Write your comment." = "Écrivez votre commentaire …";
+
+// Messaging
+"Messages" = "Messages";
+"You" = "You";
+"sent an image" = "sent an image";
+"sent a video" = "sent a video";
+"Active now" = "Active now";
+"Online" = "En ligne";
+"Just now" = "Just now";
+"years ago" = "years ago";
+"year ago" = "year ago";
+"months ago" = "months ago";
+"month ago" = "il y a un mois";
+"weeks ago" = "weeks ago";
+"week ago" = "il y a une semaine";
+"days ago" = "il y a des jours";
+"day ago" = "day ago";
+"hours ago" = "hours ago";
+"hour ago" = "il y a une heure";
+"minutes ago" = "il y a des minutes";
+"minute ago" = "minute ago";
+"seconds ago" = "seconds ago";
+
+// Notification
+"News" = "Actualités";
+"Pending" = "En attente";
+"Notification" = "Notification";
+"Accept" = "Accepter";
+
+// Settings
+"Profile" = "Profil";
+"Social" = "Social";
+"Preferences" = "Préférences";
+"Settings" = "Paramètres";
+"Comment" = "Commentaire";
+"Rate app" = "Noter l'application";
+"Invite friends" = "Inviter des amis";
+"Terms of service" = "Conditions de service";
+"Privacy policy" = "Politique de confidentialité";
+"Delete my Account" = "Supprimer mon compte";
+"Logout" = "Déconnexion";
+"Manage my groups (admin)" = "Manage my groups (admin)";
+"Places you follow" = "Lieux que vous suivez";
+"Your account privacy" = "Your account privacy";
+"Make my account private" = "Rendre mon compte privé";
+"Language" = "Langue";
+"Push notification" = "Notification push";
+"ON" = "Activé";
+"OFF" = "Désactivé";
+"Enter the language name" = "Enter the language name";
+
+// Language
+"Device language" = "Langue de l'appareil";
+"English" = "Anglais";
+"Chinese" = "Chinese";
+"Ukranian" = "Ukranian";
+"Nepali" = "Nepali";
+"Hindi" = "Hindi";
+"Indonesian" = "Indonesian";
+"Japanese" = "Japanese";
+"Korean" = "Korean";
+"Malay" = "Malay";
+"Russian" = "Russian";
+"Thai" = "Thai";
+"Urdu" = "Urdu";
+"Vietnamise" = "Vietnamise";
+"Arabic" = "Arabic";
+"Polish" = "Polish";
+"Swahili" = "Swahili";
+"Italian" = "Italian";
+"French" = "French";
+"German" = "German";
+"Turkish" = "Turkish";
+"Spanish" = "Spanish";
+"Portuguese" = "Portugais";
+
+// Confirmation popup
+"Confirm delete?" = "Confirm delete?";
+"Are you sure you want to delete this post? Once deleted, it cannot be undone." = "Êtes-vous sûr de vouloir supprimer cette publication ? Une fois supprimée, elle ne peut pas être récupérée.";
+"Confirm delete group?" = "Confirm delete group?";
+"Are you sure you want to delete this group? Once deleted, it cannot be undone." = "Are you sure you want to delete this group? Once deleted, it cannot be undone.";
+"New Admin Required" = "New Admin Required";
+"Do you want to assign a new admin from members list before leaving this group?" = "Do you want to assign a new admin from members list before leaving this group?";
+"Confirm leave group?" = "Confirm leave group?";
+"Are you sure, you want to leave this group?" = "Are you sure, you want to leave this group?";
+"Confirm assign" = "Confirm assign";
+"Are you sure you want to assign" = "Are you sure you want to assign";
+"as new admin of the group?" = "as new admin of the group?";
+"Account deletion" = "Suppression du compte";
+"Are you sure you want to delete your account? Once deleted, it cannot be recovered." = "Êtes-vous sûr de vouloir supprimer votre compte ? Une fois supprimé, il ne peut pas être récupéré";
+
+// Success Message
+"Post has been reported successfully" = "Post has been reported successfully";
+"Group has been reported successfully" = "Group has been reported successfully";
+"has been deleted." = "has been deleted.";
+"Password has been changed." = "Password has been changed.";
+
+// Common
+"Error" = "Error";
+"this user" = "this user";
+"Feed" = "Feed";
+"Cancel" = "Annuler";
+"Ok" = "Ok";
+"Upload photo" = "Téléverser une photo";
+"Change Photo" = "Changer de photo";
+"Save changes" = "Save changes";
+"Change Password" = "Changer le mot de passe";
+"user" = "user";
+"Select option" = "Select option";
+"Select Date of Birth" = "Select Date of Birth";
+"Select Date" = "Select Date";
+"Search" = "Rechercher";
+"Results" = "Results";
+"Understood" = "Compris";
+"View more" = "voir plus";
+"View less" = "voir moins";
+"Save" = "Enregistrer";
+"Close" = "Close";
+"Enter your text" = "Saisissez votre texte";
+"Yes" = "Oui";
+"No" = "Non";
+"Warning" = "Warning";
+
+// App Error Strings
+
+"Couldn't complete your request." = "Couldn't complete your request.";
+"Google Sign-in failed." = "Google Sign-in failed.";
+"Cannot login at the moment!" = "Cannot login at the moment!";
+"Email or password is invalid" = "Email or password is invalid";
+"Feed is empty." = "Feed is empty.";
+"News feed is empty." = "News feed is empty.";
+"No post has been uploaded to this group yet." = "No post has been uploaded to this group yet.";
+"User feed is empty." = "User feed is empty.";
+"No post has been uploaded to this place yet." = "No post has been uploaded to this place yet.";
+"Could not load video" = "Could not load video";
+"Cannot play audio" = "Cannot play audio";
+
+"You have been banned from posting." = "You have been banned from posting.";
+"Invalid link provided" = "Invalid link provided";
+"Invalid post type" = "Invalid post type";
+"Please select date of event first." = "Please select date of event first.";
+"Please select start time of event first." = "Please select start time of event first.";
+"Email app not available." = "Email app not available.";
+
+"Data is invalid" = "Data is invalid";
+"Null response data" = "Null response data";
+"Contact administrator" = "Contact administrator";
+"Your request has failed." = "Your request has failed.";
+
+"Not found" = "Not found";
+"Not authorized" = "Not authorized";
+"Request timeout" = "Request timeout";
+"An error occurred" = "An error occurred";
+
+"Full name is empty" = "Full name is empty";
+"Email is empty" = "Email is empty";
+"Password is empty" = "Password is empty";
+"New Password is empty" = "New password is Empty";
+"Passwords do no match." = "Passwords do no match.";
+"Email address is not valid" = "Email address is not valid";
+"Password length must be greater than or equal to 8" = "Password length must be greater than or equal to 8";
+"One or more required field is missing" = "One or more required field is missing";
+"You are not authorized to perform this operation." = "You are not authorized to perform this operation.";
+"No user found for given email" = "No user found for given email";
+"This email-id is associated with social media login" = "This email-id is associated with social media login";
+"Group name is empty" = "Group name is empty";
+"Group description is empty" = "Group description is empty";
+"Post description is empty" = "Post description is empty";
+"Please select at least 1 image" = "Please select at least 1 image";
+"Place name is empty" = "Place name is empty";
+"Please select group before proceeding." = "Please select group before proceeding.";
+"Please identify place type first." = "Please identify place type first.";
+"Please select place location." = "Please select place location.";
+"Please record audio before proceeding." = "Please record audio before proceeding.";
+"Please select video before proceeding." = "Please select video before proceeding.";
+"Please select place to checkin" = "Please select place to checkin";
+"Please select publisher before proceeding." = "Please select publisher before proceeding.";
+"Please enter event title" = "Please enter event title";
+"Please enter event details" = "Veuillez saisir les détails de l'événement";
+"Please re-check your scheduled date and time" = "Please re-check your scheduled date and time";
+"Date of Birth is required" = "Date of Birth is required";
+"Gender is empty" = "Gender is empty";
+"Please edit data before saving" = "Please edit data before saving";
+
+"You have already joined this group" = "You have already joined this group";
+"You are not a member of this group" = "You are not a member of this group";
+"You have already followed this group" = "You have already followed this group";
+"You have not followed this group yet" = "You have not followed this group yet";
+"You are not authorized to perform this action" = "You are not authorized to perform this action";

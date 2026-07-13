@@ -1,0 +1,78 @@
+# Orbis iOS
+
+Geo-social network iOS app. Workspace-based (CocoaPods), two schemes: **Orbis-iOS** (production) and **Orbis-iOS-Staging**.
+
+## Getting set up
+
+### 1. Prerequisites
+
+- Xcode 14+
+- CocoaPods (`sudo gem install cocoapods`)
+
+### 2. Install dependencies
+
+```sh
+pod install
+```
+
+Always open **`Orbis-iOS.xcworkspace`** (not the `.xcodeproj`).
+
+### 3. Configure secrets (required — the app will not run without this)
+
+Secrets (API keys, tokens) are **not committed to git**. They live in local files you create once, ignored by `.gitignore`. This is the iOS equivalent of Android's `local.properties`.
+
+There are two things to set up: the **`.xcconfig` secrets file** and the **Firebase plists**.
+
+#### 3a. `Config/Secrets.xcconfig`
+
+Copy the template and fill in the real values:
+
+```sh
+cp Config/Secrets.example.xcconfig Config/Secrets.xcconfig
+```
+
+Then edit `Config/Secrets.xcconfig`. Each key, what it is, and where to get it:
+
+| Key | What it is | Where to get it |
+|-----|-----------|-----------------|
+| `X_MASTER_KEY` | Backend master key, sent as the `X-Master-Key` HTTP header on every API request. Same value as Android's `BuildConfig.X_MASTER_KEY`. | Backend team / credentials vault |
+| `GOOGLE_API_KEY_STAGING` | Google Maps + Places SDK key for the staging build. | Google Cloud Console → APIs & Services → Credentials (staging project) |
+| `GOOGLE_API_KEY_PRODUCTION` | Google Maps + Places SDK key for the production build. | Google Cloud Console → Credentials (production project) |
+| `BRANCH_KEY_LIVE` | Branch.io deep-link key, live environment (`key_live_…`). | Branch dashboard → Account Settings |
+| `BRANCH_KEY_TEST` | Branch.io deep-link key, test environment (`key_test_…`). | Branch dashboard → Account Settings |
+| `FACEBOOK_CLIENT_TOKEN_PRODUCTION` | Facebook SDK client token for the production app. | Meta for Developers → App (prod) → Settings → Advanced → Client token |
+| `FACEBOOK_CLIENT_TOKEN_STAGING` | Facebook SDK client token for the staging app. | Meta for Developers → App (staging) → Settings → Advanced → Client token |
+
+#### 3b. Firebase config files (`GoogleService-Info.plist`)
+
+These are also gitignored. Download from the [Firebase Console](https://console.firebase.google.com/) (Project Settings → Your apps → iOS app → `GoogleService-Info.plist`) and place them at:
+
+- Production: `Orbis-iOS/Resources/FirebaseInfolist/Production/GoogleService-Info.plist`
+- Staging: `Orbis-iOS/Resources/FirebaseInfolist/Staging/GoogleService-Info.plist`
+- Staging (alt): `Orbis-iOS/Resources/FirebaseInfolist/Staging/GoogleService-Info-staging.plist`
+
+`.example.plist` templates sit next to each, showing the expected structure with the API key redacted.
+
+### 4. Run
+
+Pick the **Orbis-iOS** or **Orbis-iOS-Staging** scheme and build.
+
+If secrets are missing, the app crashes at launch with a message telling you which key is absent (see `APPKeys.secret(_:)`).
+
+## How secrets are wired (for maintainers)
+
+`Config/Secrets.xcconfig` → four wrapper xcconfigs in `Config/` (one per build config) `#include` both the CocoaPods xcconfig and `Secrets.xcconfig`, and are set as each config's **base configuration** in the project.
+
+From there:
+- Values reach `Info-prod.plist` / `Info-staging.plist` via `$(VARIABLE)` substitution.
+- `APPKeys.swift` reads them at runtime with `Bundle.main.object(forInfoDictionaryKey:)`.
+
+To add a new secret: add it to `Secrets.xcconfig` (and `Secrets.example.xcconfig` with a placeholder), reference it as `$(NEW_KEY)` in the relevant Info.plist, then read it via `APPKeys.secret("NEW_KEY")`.
+
+**Never commit** `Config/Secrets.xcconfig` or any real `GoogleService-Info.plist`. Both are gitignored — keep them that way.
+
+## Localization
+
+24 languages. Strings live in `Orbis-iOS/Resources/Strings/<lang>.lproj/Localizable.strings`, looked up through `String.localized` (see `Orbis_String+Extension.swift`).
+
+Translations are ported from the Android project (`orbis_v2_android/app/src/main/res/values-*/strings.xml`) with `Scripts/merge_android_localizations.py`. Rerun it when Android translations change; it matches iOS English-sentence keys against Android English values and only overwrites when the match is unambiguous.

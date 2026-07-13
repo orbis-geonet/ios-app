@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ROBOTO-REGULAR.TTF">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="GroupUserActionPopupView" customModule="Orbis_iOS" customModuleProvider="target">
+            <connections>
+                <outlet property="actionBtnContainer" destination="n9c-yB-PcD" id="lnO-Pp-36U"/>
+                <outlet property="activateSubscriptionLabel" destination="IHF-Qc-9ow" id="jR1-fJ-XGB"/>
+                <outlet property="activateSubscriptionView" destination="sXI-lH-qUX" id="Djw-bu-aza"/>
+                <outlet property="btnTopConstraint" destination="xuV-fI-Bxc" id="e4B-3Z-tCf"/>
+                <outlet property="btnTrailingConstraint" destination="bhB-Xb-73x" id="6Nt-e3-cJG"/>
+                <outlet property="contentView" destination="zDV-Ii-huL" id="UPM-xf-4He"/>
+                <outlet property="deactivateSubscriptionLabel" destination="OKo-0s-tZF" id="yQd-Ib-lll"/>
+                <outlet property="deactivateSubscriptionView" destination="1hC-G5-gI7" id="B4d-D8-YOp"/>
+                <outlet property="deleteLabel" destination="GnD-M4-MaC" id="sLJ-gn-2jr"/>
+                <outlet property="deleteView" destination="aCM-kR-Nmq" id="QeT-LH-kUD"/>
+                <outlet property="flagLabel" destination="Osn-Ei-MZo" id="4Lu-Xx-eEd"/>
+                <outlet property="flagView" destination="ig9-90-yJl" id="9cY-Zj-SIS"/>
+                <outlet property="followUnfollowLabel" destination="7N3-yu-EZs" id="Pmv-cU-OyS"/>
+                <outlet property="followUnfollowView" destination="UBf-Uc-XMy" id="4AR-lh-Hx2"/>
+                <outlet property="leaveLabel" destination="PYt-5G-VKT" id="4bx-AS-MyW"/>
+                <outlet property="leaveView" destination="beB-AU-O4E" id="yoj-rk-7Bd"/>
+                <outlet property="unhideStoriesLabel" destination="Wws-au-bB6" id="lCB-vO-8Bm"/>
+                <outlet property="unhideStoriesView" destination="7WE-Ih-eqy" id="QOd-PU-hsP"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="zDV-Ii-huL">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cZa-4F-df6">
+                    <rect key="frame" x="0.0" y="48" width="414" height="814"/>
+                    <connections>
+                        <action selector="outsideViewTapped:" destination="-1" eventType="touchUpInside" id="Mm1-0m-xoc"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n9c-yB-PcD" customClass="RoundedView" customModule="Orbis_iOS" customModuleProvider="target">
+                    <rect key="frame" x="182.5" y="48" width="231.5" height="315"/>
+                    <subviews>
+                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RAU-Ce-4lX" customClass="RoundedView" customModule="Orbis_iOS" customModuleProvider="target">
+                            <rect key="frame" x="0.0" y="0.0" width="231.5" height="315"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="Bsb-Da-3gm">
+                                    <rect key="frame" x="0.0" y="0.0" width="231.5" height="315"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="beB-AU-O4E">
+                                            <rect key="frame" x="0.0" y="0.0" width="231.5" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Leave" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PYt-5G-VKT">
+                                                    <rect key="frame" x="30" y="13" width="171.5" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                    <color key="textColor" name="appBlack"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="14q-1H-sEY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="231.5" height="45"/>
+                                                    <connections>
+                                                        <action selector="leaveBtnTapped:" destination="-1" eventType="touchUpInside" id="hRA-y0-eNe"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="PYt-5G-VKT" firstAttribute="centerY" secondItem="beB-AU-O4E" secondAttribute="centerY" id="Cog-mP-AcY"/>
+                                                <constraint firstItem="14q-1H-sEY" firstAttribute="top" secondItem="beB-AU-O4E" secondAttribute="top" id="KhT-pQ-ykE"/>
+                                                <constraint firstItem="14q-1H-sEY" firstAttribute="leading" secondItem="beB-AU-O4E" secondAttribute="leading" id="QMQ-Na-kaX"/>
+                                                <constraint firstAttribute="height" constant="45" id="U4X-bJ-oS1" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="bottom" secondItem="14q-1H-sEY" secondAttribute="bottom" id="WQQ-TF-v1Q"/>
+                                                <constraint firstItem="PYt-5G-VKT" firstAttribute="leading" secondItem="beB-AU-O4E" secondAttribute="leading" constant="30" id="eDW-9D-haZ" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="trailing" secondItem="14q-1H-sEY" secondAttribute="trailing" id="fb0-oX-osY"/>
+                                                <constraint firstAttribute="trailing" secondItem="PYt-5G-VKT" secondAttribute="trailing" constant="30" id="oTy-z1-qWb" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UBf-Uc-XMy">
+                                            <rect key="frame" x="0.0" y="45" width="231.5" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Follow" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7N3-yu-EZs">
+                                                    <rect key="frame" x="30" y="13" width="171.5" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                    <color key="textColor" name="appBlack"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DBj-hn-GJj">
+                                                    <rect key="frame" x="0.0" y="0.0" width="231.5" height="45"/>
+                                                    <connections>
+                                                        <action selector="followUnfollowBtnTapped:" destination="-1" eventType="touchUpInside" id="X2R-03-QzT"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="trailing" secondItem="DBj-hn-GJj" secondAttribute="trailing" id="8Hm-Mj-TNd"/>
+                                                <constraint firstAttribute="bottom" secondItem="DBj-hn-GJj" secondAttribute="bottom" id="JOm-KO-Hv6"/>
+                                                <constraint firstAttribute="trailing" secondItem="7N3-yu-EZs" secondAttribute="trailing" constant="30" id="QgK-bb-crc" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstItem="DBj-hn-GJj" firstAttribute="top" secondItem="UBf-Uc-XMy" secondAttribute="top" id="dVF-EY-DWM"/>
+                                                <constraint firstAttribute="height" constant="45" id="eZT-6q-NiN" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstItem="7N3-yu-EZs" firstAttribute="centerY" secondItem="UBf-Uc-XMy" secondAttribute="centerY" id="hRN-a7-6Jx"/>
+                                                <constraint firstItem="7N3-yu-EZs" firstAttribute="leading" secondItem="UBf-Uc-XMy" secondAttribute="leading" constant="30" id="nvf-ew-Etb" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstItem="DBj-hn-GJj" firstAttribute="leading" secondItem="UBf-Uc-XMy" secondAttribute="leading" id="qEa-tA-eWB"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="sXI-lH-qUX">
+                                            <rect key="frame" x="0.0" y="90" width="231.5" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Activate Subscription" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IHF-Qc-9ow">
+                                                    <rect key="frame" x="30" y="13" width="171.5" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                    <color key="textColor" name="appBlack"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dVC-8L-nYb">
+                                                    <rect key="frame" x="0.0" y="0.0" width="231.5" height="45"/>
+                                                    <connections>
+                                                        <action selector="activateSubscriptionBtnTapped:" destination="-1" eventType="touchUpInside" id="gDz-bN-QvD"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="dVC-8L-nYb" firstAttribute="leading" secondItem="sXI-lH-qUX" secondAttribute="leading" id="8LL-hp-dQP"/>
+                                                <constraint firstAttribute="height" constant="45" id="AwW-ND-ilC" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="bottom" secondItem="dVC-8L-nYb" secondAttribute="bottom" id="HxL-hz-OVK"/>
+                                                <constraint firstItem="IHF-Qc-9ow" firstAttribute="centerY" secondItem="sXI-lH-qUX" secondAttribute="centerY" id="IEs-5S-Kyr"/>
+                                                <constraint firstItem="dVC-8L-nYb" firstAttribute="top" secondItem="sXI-lH-qUX" secondAttribute="top" id="gyn-7R-vfV"/>
+                                                <constraint firstItem="IHF-Qc-9ow" firstAttribute="leading" secondItem="sXI-lH-qUX" secondAttribute="leading" constant="30" id="iR5-X1-5ju" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="trailing" secondItem="IHF-Qc-9ow" secondAttribute="trailing" constant="30" id="svO-cO-qHD" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="trailing" secondItem="dVC-8L-nYb" secondAttribute="trailing" id="ucb-Ss-eaX"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1hC-G5-gI7">
+                                            <rect key="frame" x="0.0" y="135" width="231.5" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Deactivate Subscription" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKo-0s-tZF">
+                                                    <rect key="frame" x="30" y="13" width="171.5" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                    <color key="textColor" name="appBlack"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m19-9q-jAz">
+                                                    <rect key="frame" x="0.0" y="0.0" width="231.5" height="45"/>
+                                                    <connections>
+                                                        <action selector="deactivateSubscriptionTapped:" destination="-1" eventType="touchUpInside" id="6Bc-oP-cSe"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="45" id="05N-gr-cZe" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstItem="m19-9q-jAz" firstAttribute="top" secondItem="1hC-G5-gI7" secondAttribute="top" id="4kK-BN-ALt"/>
+                                                <constraint firstItem="OKo-0s-tZF" firstAttribute="centerY" secondItem="1hC-G5-gI7" secondAttribute="centerY" id="R9G-or-Pm7"/>
+                                                <constraint firstItem="m19-9q-jAz" firstAttribute="leading" secondItem="1hC-G5-gI7" secondAttribute="leading" id="Seb-Fz-dAK"/>
+                                                <constraint firstAttribute="trailing" secondItem="m19-9q-jAz" secondAttribute="trailing" id="dcv-3o-oLA"/>
+                                                <constraint firstAttribute="bottom" secondItem="m19-9q-jAz" secondAttribute="bottom" id="fXd-8Q-WNT"/>
+                                                <constraint firstItem="OKo-0s-tZF" firstAttribute="leading" secondItem="1hC-G5-gI7" secondAttribute="leading" constant="30" id="gcs-yp-QeH" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="trailing" secondItem="OKo-0s-tZF" secondAttribute="trailing" constant="30" id="hf9-2q-rII" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aCM-kR-Nmq">
+                                            <rect key="frame" x="0.0" y="180" width="231.5" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delete" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GnD-M4-MaC">
+                                                    <rect key="frame" x="30" y="13" width="171.5" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                    <color key="textColor" name="appBlack"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oSd-j5-eIE">
+                                                    <rect key="frame" x="0.0" y="0.0" width="231.5" height="45"/>
+                                                    <connections>
+                                                        <action selector="deleteBtnTapped:" destination="-1" eventType="touchUpInside" id="aY9-uc-UfJ"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="GnD-M4-MaC" firstAttribute="centerY" secondItem="aCM-kR-Nmq" secondAttribute="centerY" id="05G-cJ-uZo"/>
+                                                <constraint firstItem="oSd-j5-eIE" firstAttribute="leading" secondItem="aCM-kR-Nmq" secondAttribute="leading" id="18P-DD-ync"/>
+                                                <constraint firstAttribute="trailing" secondItem="GnD-M4-MaC" secondAttribute="trailing" constant="30" id="cDI-FL-iFv" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstItem="oSd-j5-eIE" firstAttribute="top" secondItem="aCM-kR-Nmq" secondAttribute="top" id="dzz-HL-gEx"/>
+                                                <constraint firstItem="GnD-M4-MaC" firstAttribute="leading" secondItem="aCM-kR-Nmq" secondAttribute="leading" constant="30" id="ik6-3x-Zzt" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="height" constant="45" id="lHE-ny-IR5" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="trailing" secondItem="oSd-j5-eIE" secondAttribute="trailing" id="pCH-qb-CPA"/>
+                                                <constraint firstAttribute="bottom" secondItem="oSd-j5-eIE" secondAttribute="bottom" id="ywz-yW-ejp"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7WE-Ih-eqy">
+                                            <rect key="frame" x="0.0" y="225" width="231.5" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Unhide stories" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wws-au-bB6">
+                                                    <rect key="frame" x="30" y="13" width="171.5" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                    <color key="textColor" name="appBlack"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j2a-NW-cXG">
+                                                    <rect key="frame" x="0.0" y="0.0" width="231.5" height="45"/>
+                                                    <connections>
+                                                        <action selector="unhideStoriesTapped:" destination="-1" eventType="touchUpInside" id="gF3-pk-XtQ"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstItem="Wws-au-bB6" firstAttribute="leading" secondItem="7WE-Ih-eqy" secondAttribute="leading" constant="30" id="1hr-5x-Ju6" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="trailing" secondItem="Wws-au-bB6" secondAttribute="trailing" constant="30" id="BbW-yC-TFt" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstItem="Wws-au-bB6" firstAttribute="centerY" secondItem="7WE-Ih-eqy" secondAttribute="centerY" id="Lmc-GH-5NY"/>
+                                                <constraint firstAttribute="height" constant="45" id="UZQ-E6-Lcs" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="bottom" secondItem="j2a-NW-cXG" secondAttribute="bottom" id="eW1-fr-AhT"/>
+                                                <constraint firstItem="j2a-NW-cXG" firstAttribute="top" secondItem="7WE-Ih-eqy" secondAttribute="top" id="eyX-Wd-cm1"/>
+                                                <constraint firstItem="j2a-NW-cXG" firstAttribute="leading" secondItem="7WE-Ih-eqy" secondAttribute="leading" id="vpO-Ge-Leg"/>
+                                                <constraint firstAttribute="trailing" secondItem="j2a-NW-cXG" secondAttribute="trailing" id="yhT-As-Q3i"/>
+                                            </constraints>
+                                        </view>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ig9-90-yJl">
+                                            <rect key="frame" x="0.0" y="270" width="231.5" height="45"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Report" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Osn-Ei-MZo">
+                                                    <rect key="frame" x="30" y="13" width="171.5" height="19"/>
+                                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                                    <color key="textColor" name="appBlack"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TqT-G5-Q6J">
+                                                    <rect key="frame" x="0.0" y="0.0" width="231.5" height="45"/>
+                                                    <connections>
+                                                        <action selector="flagBtnTapped:" destination="-1" eventType="touchUpInside" id="qOU-Rh-oMo"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="45" id="ASd-Xf-LIP" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="bottom" secondItem="TqT-G5-Q6J" secondAttribute="bottom" id="P4I-xr-U41"/>
+                                                <constraint firstItem="Osn-Ei-MZo" firstAttribute="leading" secondItem="ig9-90-yJl" secondAttribute="leading" constant="30" id="SxU-GG-OWm" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstAttribute="trailing" secondItem="TqT-G5-Q6J" secondAttribute="trailing" id="h0u-1P-ZeJ"/>
+                                                <constraint firstAttribute="trailing" secondItem="Osn-Ei-MZo" secondAttribute="trailing" constant="30" id="k8e-Nd-34V" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </constraint>
+                                                <constraint firstItem="TqT-G5-Q6J" firstAttribute="leading" secondItem="ig9-90-yJl" secondAttribute="leading" id="sA2-OT-H6g"/>
+                                                <constraint firstItem="TqT-G5-Q6J" firstAttribute="top" secondItem="ig9-90-yJl" secondAttribute="top" id="ujW-sF-H96"/>
+                                                <constraint firstItem="Osn-Ei-MZo" firstAttribute="centerY" secondItem="ig9-90-yJl" secondAttribute="centerY" id="zeL-H6-6dW"/>
+                                            </constraints>
+                                        </view>
+                                    </subviews>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstAttribute="bottom" secondItem="Bsb-Da-3gm" secondAttribute="bottom" id="2LB-iG-EH6"/>
+                                <constraint firstItem="Bsb-Da-3gm" firstAttribute="top" secondItem="RAU-Ce-4lX" secondAttribute="top" id="GRM-aK-Y2y"/>
+                                <constraint firstAttribute="trailing" secondItem="Bsb-Da-3gm" secondAttribute="trailing" id="WT3-6H-3ck"/>
+                                <constraint firstItem="Bsb-Da-3gm" firstAttribute="leading" secondItem="RAU-Ce-4lX" secondAttribute="leading" id="bNc-mV-Plh"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                    <real key="value" value="5"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    <constraints>
+                        <constraint firstItem="RAU-Ce-4lX" firstAttribute="top" secondItem="n9c-yB-PcD" secondAttribute="top" id="2GH-qq-hnT"/>
+                        <constraint firstAttribute="bottom" secondItem="RAU-Ce-4lX" secondAttribute="bottom" id="3br-kH-afQ"/>
+                        <constraint firstAttribute="trailing" secondItem="RAU-Ce-4lX" secondAttribute="trailing" id="XCt-IH-rEW"/>
+                        <constraint firstItem="RAU-Ce-4lX" firstAttribute="leading" secondItem="n9c-yB-PcD" secondAttribute="leading" id="voC-fa-1Lq"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <real key="value" value="5"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="20"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="0.16"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                            <size key="value" width="0.0" height="10"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="displayShadow" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="FJQ-fg-GjS"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="FJQ-fg-GjS" firstAttribute="bottom" secondItem="cZa-4F-df6" secondAttribute="bottom" id="IMX-z1-x6R"/>
+                <constraint firstItem="cZa-4F-df6" firstAttribute="leading" secondItem="FJQ-fg-GjS" secondAttribute="leading" id="K1d-TO-HcE"/>
+                <constraint firstItem="FJQ-fg-GjS" firstAttribute="trailing" secondItem="cZa-4F-df6" secondAttribute="trailing" id="aTU-P0-2mL"/>
+                <constraint firstItem="FJQ-fg-GjS" firstAttribute="trailing" secondItem="n9c-yB-PcD" secondAttribute="trailing" id="bhB-Xb-73x"/>
+                <constraint firstItem="cZa-4F-df6" firstAttribute="top" secondItem="FJQ-fg-GjS" secondAttribute="top" id="muf-DL-2Ht"/>
+                <constraint firstItem="n9c-yB-PcD" firstAttribute="top" secondItem="FJQ-fg-GjS" secondAttribute="top" id="xuV-fI-Bxc"/>
+            </constraints>
+            <point key="canvasLocation" x="-45" y="96"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="appBlack">
+            <color red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

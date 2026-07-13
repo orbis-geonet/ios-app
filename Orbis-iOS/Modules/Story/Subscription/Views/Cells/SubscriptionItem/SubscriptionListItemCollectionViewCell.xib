@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21679"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="ROBOTO-BLACK.TTF">
+            <string>Roboto-Black</string>
+        </array>
+        <array key="ROBOTO-BOLD.TTF">
+            <string>Roboto-Bold</string>
+        </array>
+        <array key="ROBOTO-LIGHT.TTF">
+            <string>Roboto-Light</string>
+        </array>
+        <array key="ROBOTO-MEDIUM.TTF">
+            <string>Roboto-Medium</string>
+        </array>
+        <array key="ROBOTO-REGULAR.TTF">
+            <string>Roboto-Regular</string>
+        </array>
+        <array key="ROBOTO-THIN.TTF">
+            <string>Roboto-Thin</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="subscriptionItemCell" id="gTV-IL-0wX" customClass="SubscriptionListItemCollectionViewCell" customModule="Orbis_iOS" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="368" height="717"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="368" height="717"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UyN-li-CRP" userLabel="container">
+                        <rect key="frame" x="15" y="5" width="338" height="707"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subscription_bg" translatesAutoresizingMaskIntoConstraints="NO" id="Ufs-h5-Yic">
+                                <rect key="frame" x="0.0" y="0.0" width="338" height="707"/>
+                            </imageView>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="qSn-S5-vME">
+                                <rect key="frame" x="15" y="15" width="308" height="677"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="IUU-gZ-G76">
+                                        <rect key="frame" x="10" y="0.0" width="288.5" height="71.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Standard" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hRY-fl-Eve">
+                                                <rect key="frame" x="103" y="0.0" width="82" height="23.5"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.5" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sPt-pe-dWC">
+                                                <rect key="frame" x="15" y="38.5" width="258.5" height="33"/>
+                                                <fontDescription key="fontDescription" name="Roboto-Light" family="Roboto" pointSize="14"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="trailing" secondItem="sPt-pe-dWC" secondAttribute="trailing" constant="15" id="5Mh-5I-iEY" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </constraint>
+                                            <constraint firstItem="sPt-pe-dWC" firstAttribute="leading" secondItem="IUU-gZ-G76" secondAttribute="leading" constant="15" id="fh5-LF-hrE" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                <userDefinedRuntimeAttributes>
+                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                </userDefinedRuntimeAttributes>
+                                            </constraint>
+                                        </constraints>
+                                    </stackView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="3Uk-5U-k43">
+                                        <rect key="frame" x="40.5" y="91.5" width="227.5" height="288"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="t9z-od-04e">
+                                                <rect key="frame" x="0.0" y="0.0" width="227.5" height="105.5"/>
+                                                <subviews>
+                                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qKL-4P-7HG" userLabel="amount">
+                                                        <rect key="frame" x="0.0" y="0.0" width="227.5" height="76.5"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rSU-Qo-Sdu">
+                                                                <rect key="frame" x="0.0" y="8" width="16.5" height="32"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="27"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="752" verticalCompressionResistancePriority="751" text="9,90" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DZk-IR-5VN">
+                                                                <rect key="frame" x="21.5" y="0.0" width="132" height="76.5"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="65"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="/" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TFJ-SD-rCn">
+                                                                <rect key="frame" x="158.5" y="7" width="23" height="69.5"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Thin" family="Roboto" pointSize="59"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="mon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zDo-sz-kgn">
+                                                                <rect key="frame" x="181.5" y="41.5" width="46" height="27"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="23"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="bottom" secondItem="TFJ-SD-rCn" secondAttribute="bottom" id="3f0-Qz-m1A"/>
+                                                            <constraint firstItem="DZk-IR-5VN" firstAttribute="leading" secondItem="rSU-Qo-Sdu" secondAttribute="trailing" constant="5" id="9QQ-I5-FMz" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </constraint>
+                                                            <constraint firstItem="DZk-IR-5VN" firstAttribute="top" secondItem="qKL-4P-7HG" secondAttribute="top" id="AU7-XB-eEW"/>
+                                                            <constraint firstAttribute="bottom" secondItem="zDo-sz-kgn" secondAttribute="bottom" constant="8" id="Ecy-Ob-mdl" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </constraint>
+                                                            <constraint firstItem="rSU-Qo-Sdu" firstAttribute="leading" secondItem="qKL-4P-7HG" secondAttribute="leading" id="Hum-Oy-W2S"/>
+                                                            <constraint firstAttribute="bottom" secondItem="DZk-IR-5VN" secondAttribute="bottom" id="Upl-f0-5hU"/>
+                                                            <constraint firstItem="TFJ-SD-rCn" firstAttribute="leading" secondItem="DZk-IR-5VN" secondAttribute="trailing" constant="5" id="bXA-da-MsV" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </constraint>
+                                                            <constraint firstItem="rSU-Qo-Sdu" firstAttribute="top" secondItem="qKL-4P-7HG" secondAttribute="top" constant="8" id="g9l-sF-Vp1" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </constraint>
+                                                            <constraint firstAttribute="trailing" secondItem="zDo-sz-kgn" secondAttribute="trailing" id="m2e-Xu-Ua6"/>
+                                                            <constraint firstItem="zDo-sz-kgn" firstAttribute="leading" secondItem="TFJ-SD-rCn" secondAttribute="trailing" id="t2z-iB-84Q"/>
+                                                        </constraints>
+                                                    </view>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="in 3 installment, total $ 20" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="boy-ia-sy5">
+                                                        <rect key="frame" x="20" y="86.5" width="187.5" height="19"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Medium" family="Roboto" pointSize="16"/>
+                                                        <color key="textColor" name="appPinkishGray"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="m7Y-vp-NFg">
+                                                <rect key="frame" x="42" y="120.5" width="143.5" height="167.5"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Check photos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d6h-tM-vNF">
+                                                        <rect key="frame" x="0.0" y="74.5" width="98.5" height="19"/>
+                                                        <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="16"/>
+                                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="subscription_attachment_ic" translatesAutoresizingMaskIntoConstraints="NO" id="6lv-gC-9xQ">
+                                                        <rect key="frame" x="113.5" y="69" width="30" height="30"/>
+                                                        <color key="tintColor" name="appSelectionBlue"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="30" id="G4O-ex-oiR" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </constraint>
+                                                            <constraint firstAttribute="width" secondItem="6lv-gC-9xQ" secondAttribute="height" id="ODU-5k-fMA"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                    <tableView clipsSubviews="YES" contentMode="scaleToFill" bounces="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" bouncesZoom="NO" dataMode="prototypes" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="aqR-Bf-gP7">
+                                        <rect key="frame" x="23" y="399.5" width="262" height="52.5"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="vKQ-On-5Lh">
+                                        <rect key="frame" x="0.0" y="472" width="308" height="205"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="bottom" translatesAutoresizingMaskIntoConstraints="NO" id="ED9-Pm-tfn">
+                                                <rect key="frame" x="0.0" y="0.0" width="308" height="40"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="u2V-XM-fYH">
+                                                        <rect key="frame" x="161" y="0.0" width="147" height="40"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Quantity:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="gVc-mx-mST">
+                                                                <rect key="frame" x="0.0" y="0.0" width="57" height="40"/>
+                                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="14"/>
+                                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rb4-aN-K9d" customClass="RoundedView" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                <rect key="frame" x="72" y="0.0" width="75" height="40"/>
+                                                                <subviews>
+                                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gaR-0o-dkr">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="75" height="40"/>
+                                                                        <connections>
+                                                                            <action selector="quantityTfTapped:" destination="gTV-IL-0wX" eventType="touchUpInside" id="xlx-Hh-x7X"/>
+                                                                        </connections>
+                                                                    </button>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="1Wr-jd-j7g">
+                                                                        <rect key="frame" x="10" y="0.0" width="55" height="40"/>
+                                                                        <subviews>
+                                                                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1" placeholder="1" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="uEs-Uc-9nA">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="55" height="40"/>
+                                                                                <color key="textColor" name="appBlack"/>
+                                                                                <fontDescription key="fontDescription" name="Roboto-Black" family="Roboto" pointSize="14"/>
+                                                                                <textInputTraits key="textInputTraits" autocorrectionType="no" keyboardType="numberPad" smartDashesType="no"/>
+                                                                            </textField>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                                <color key="backgroundColor" name="appOffWhite2"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="bottom" secondItem="1Wr-jd-j7g" secondAttribute="bottom" id="8b7-Og-zKs"/>
+                                                                    <constraint firstAttribute="width" constant="75" id="FOs-uk-8yM" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </constraint>
+                                                                    <constraint firstAttribute="trailing" secondItem="1Wr-jd-j7g" secondAttribute="trailing" constant="10" id="LZK-LP-IhC" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </constraint>
+                                                                    <constraint firstAttribute="height" constant="40" id="bAi-yq-jaP" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </constraint>
+                                                                    <constraint firstAttribute="trailing" secondItem="gaR-0o-dkr" secondAttribute="trailing" id="brB-OM-IA2"/>
+                                                                    <constraint firstItem="1Wr-jd-j7g" firstAttribute="leading" secondItem="rb4-aN-K9d" secondAttribute="leading" constant="10" id="fMn-ZI-NE9" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </constraint>
+                                                                    <constraint firstAttribute="bottom" secondItem="gaR-0o-dkr" secondAttribute="bottom" id="gAm-FM-UER"/>
+                                                                    <constraint firstItem="gaR-0o-dkr" firstAttribute="top" secondItem="rb4-aN-K9d" secondAttribute="top" id="kHF-gZ-2vf"/>
+                                                                    <constraint firstItem="1Wr-jd-j7g" firstAttribute="top" secondItem="rb4-aN-K9d" secondAttribute="top" id="vAu-4T-gAM"/>
+                                                                    <constraint firstItem="gaR-0o-dkr" firstAttribute="leading" secondItem="rb4-aN-K9d" secondAttribute="leading" id="wz0-K6-yBE"/>
+                                                                </constraints>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                                        <real key="value" value="0.0"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="10"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </view>
+                                                        </subviews>
+                                                    </stackView>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="RKk-S4-igE">
+                                                <rect key="frame" x="0.0" y="50" width="308" height="155"/>
+                                                <subviews>
+                                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="znD-Da-eQV" customClass="RoundedView" customModule="Orbis_iOS" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="0.0" width="308" height="45"/>
+                                                        <subviews>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gMF-Xp-1UG">
+                                                                <rect key="frame" x="0.0" y="0.0" width="308" height="45"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="45" id="6o6-A2-RTW" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </constraint>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Sign">
+                                                                    <color key="titleColor" name="appBlack"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <action selector="actionButtonSign:" destination="gTV-IL-0wX" eventType="touchUpInside" id="TaL-4C-ugx"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstItem="gMF-Xp-1UG" firstAttribute="leading" secondItem="znD-Da-eQV" secondAttribute="leading" id="4Zu-g1-m3y"/>
+                                                            <constraint firstItem="gMF-Xp-1UG" firstAttribute="top" secondItem="znD-Da-eQV" secondAttribute="top" id="Nln-WP-06U"/>
+                                                            <constraint firstAttribute="bottom" secondItem="gMF-Xp-1UG" secondAttribute="bottom" id="SsG-tQ-zTQ"/>
+                                                            <constraint firstAttribute="trailing" secondItem="gMF-Xp-1UG" secondAttribute="trailing" id="trT-dX-zMi"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="8"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="LyO-Bg-gqw" customClass="RoundedView" customModule="Orbis_iOS" customModuleProvider="target">
+                                                        <rect key="frame" x="0.0" y="55" width="308" height="45"/>
+                                                        <subviews>
+                                                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hHm-Tg-Nad">
+                                                                <rect key="frame" x="0.0" y="0.0" width="308" height="45"/>
+                                                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="height" constant="45" id="sh4-US-q7O" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                        <userDefinedRuntimeAttributes>
+                                                                            <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                        </userDefinedRuntimeAttributes>
+                                                                    </constraint>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="20"/>
+                                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                <state key="normal" title="Edit">
+                                                                    <color key="titleColor" name="appBlack"/>
+                                                                </state>
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                        <real key="value" value="8"/>
+                                                                    </userDefinedRuntimeAttribute>
+                                                                </userDefinedRuntimeAttributes>
+                                                                <connections>
+                                                                    <action selector="actionButtonEdit:" destination="gTV-IL-0wX" eventType="touchUpInside" id="o6H-AH-C3d"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="trailing" secondItem="hHm-Tg-Nad" secondAttribute="trailing" id="3Bm-id-bnA"/>
+                                                            <constraint firstAttribute="bottom" secondItem="hHm-Tg-Nad" secondAttribute="bottom" id="Zx0-5B-TXc"/>
+                                                            <constraint firstItem="hHm-Tg-Nad" firstAttribute="leading" secondItem="LyO-Bg-gqw" secondAttribute="leading" id="gHm-yA-vnU"/>
+                                                            <constraint firstItem="hHm-Tg-Nad" firstAttribute="top" secondItem="LyO-Bg-gqw" secondAttribute="top" id="xpK-XP-2VJ"/>
+                                                        </constraints>
+                                                        <userDefinedRuntimeAttributes>
+                                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                                <real key="value" value="8"/>
+                                                            </userDefinedRuntimeAttribute>
+                                                        </userDefinedRuntimeAttributes>
+                                                    </view>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fT9-FW-Ugf">
+                                                        <rect key="frame" x="0.0" y="110" width="308" height="45"/>
+                                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="45" id="SCO-WD-bto" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                                                <userDefinedRuntimeAttributes>
+                                                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                                                </userDefinedRuntimeAttributes>
+                                                            </constraint>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="20"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" title="Delete">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="actionButtonDelete:" destination="gTV-IL-0wX" eventType="touchUpInside" id="ag5-QB-Jxq"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="vKQ-On-5Lh" firstAttribute="width" secondItem="qSn-S5-vME" secondAttribute="width" id="NqG-Dx-Wsh"/>
+                                    <constraint firstItem="aqR-Bf-gP7" firstAttribute="width" secondItem="qSn-S5-vME" secondAttribute="width" multiplier="0.85" id="wc1-Op-xh5"/>
+                                </constraints>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ufs-h5-Yic" firstAttribute="leading" secondItem="UyN-li-CRP" secondAttribute="leading" id="4X5-Xo-jo0"/>
+                            <constraint firstItem="qSn-S5-vME" firstAttribute="top" secondItem="UyN-li-CRP" secondAttribute="top" constant="15" id="4ne-UZ-UY2" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstItem="qSn-S5-vME" firstAttribute="leading" secondItem="UyN-li-CRP" secondAttribute="leading" constant="15" id="9HU-ve-96d" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="Ufs-h5-Yic" secondAttribute="trailing" id="EQK-rb-zts"/>
+                            <constraint firstAttribute="bottom" secondItem="qSn-S5-vME" secondAttribute="bottom" constant="15" id="NlH-aX-uoW" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstAttribute="trailing" secondItem="qSn-S5-vME" secondAttribute="trailing" constant="15" id="aLe-17-WuW" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                                </userDefinedRuntimeAttributes>
+                            </constraint>
+                            <constraint firstItem="Ufs-h5-Yic" firstAttribute="top" secondItem="UyN-li-CRP" secondAttribute="top" id="pKl-xu-0d6"/>
+                            <constraint firstAttribute="bottom" secondItem="Ufs-h5-Yic" secondAttribute="bottom" id="yrZ-w9-ASW"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="C1R-7z-2dg"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="UyN-li-CRP" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="15" id="Aib-WC-Yb5" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstAttribute="bottom" secondItem="UyN-li-CRP" secondAttribute="bottom" constant="5" id="Deq-vu-zrQ" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstAttribute="trailing" secondItem="UyN-li-CRP" secondAttribute="trailing" constant="15" id="U9o-yB-fRR" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+                <constraint firstItem="UyN-li-CRP" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="5" id="c1L-ar-wpg" customClass="AdaptiveLayoutConstraint" customModule="Orbis_iOS" customModuleProvider="target">
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="setAdaptiveLayout" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </constraint>
+            </constraints>
+            <size key="customSize" width="368" height="717"/>
+            <connections>
+                <outlet property="attachmentsSv" destination="m7Y-vp-NFg" id="ggk-4O-wgF"/>
+                <outlet property="attachmentsTitleLabel" destination="d6h-tM-vNF" id="ot0-4i-Hrk"/>
+                <outlet property="btnDelete" destination="fT9-FW-Ugf" id="rWF-Xv-TXq"/>
+                <outlet property="btnEdit" destination="hHm-Tg-Nad" id="Mro-1j-umb"/>
+                <outlet property="btnSign" destination="gMF-Xp-1UG" id="sGf-Z4-PGb"/>
+                <outlet property="itemQuantitySv" destination="ED9-Pm-tfn" id="Gz8-f3-zVY"/>
+                <outlet property="itemQuantityTf" destination="uEs-Uc-9nA" id="hoi-L9-EzM"/>
+                <outlet property="lblSubscriptionAmount" destination="DZk-IR-5VN" id="ySp-53-CNg"/>
+                <outlet property="lblSubscriptionAmountExtra" destination="boy-ia-sy5" id="RFr-dY-E35"/>
+                <outlet property="lblSubscriptionAmountSeparator" destination="TFJ-SD-rCn" id="ysF-Ie-G0h"/>
+                <outlet property="lblSubscriptionCurrency" destination="rSU-Qo-Sdu" id="PU5-yR-6CQ"/>
+                <outlet property="lblSubscriptionDescription" destination="sPt-pe-dWC" id="qXo-T0-3f2"/>
+                <outlet property="lblSubscriptionDuration" destination="zDo-sz-kgn" id="NfS-qt-Y7u"/>
+                <outlet property="lblSubscriptionName" destination="hRY-fl-Eve" id="UKB-eY-Cqu"/>
+                <outlet property="quantityTitleLabel" destination="gVc-mx-mST" id="f71-bX-1Gy"/>
+                <outlet property="tblFeatures" destination="aqR-Bf-gP7" id="7Fj-hP-akP"/>
+            </connections>
+            <point key="canvasLocation" x="283.125" y="218.13380281690141"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="subscription_attachment_ic" width="80" height="80"/>
+        <image name="subscription_bg" width="328" height="639"/>
+        <namedColor name="appBlack">
+            <color red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="appOffWhite2">
+            <color red="0.94509803921568625" green="0.94509803921568625" blue="0.94509803921568625" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="appPinkishGray">
+            <color red="0.77254901960784317" green="0.77254901960784317" blue="0.77254901960784317" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="appSelectionBlue">
+            <color red="0.94509803921568625" green="0.95686274509803926" blue="0.96470588235294119" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

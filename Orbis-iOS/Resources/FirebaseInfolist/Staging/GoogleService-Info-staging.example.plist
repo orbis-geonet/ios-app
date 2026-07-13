@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>193814336040-k81u42ldo4n8e32anfltr2hgsl39u9jv.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.193814336040-k81u42ldo4n8e32anfltr2hgsl39u9jv</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>193814336040-5j6v64rq2pq3bao8fui037js4li2cpar.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>YOUR_FIREBASE_API_KEY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>193814336040</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.orbis.orbis.staging</string>
+	<key>PROJECT_ID</key>
+	<string>orbis-v2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>orbis-v2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:193814336040:ios:656212162b1d3804315b1d</string>
+	<key>DATABASE_URL</key>
+	<string>https://orbis-v2-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>

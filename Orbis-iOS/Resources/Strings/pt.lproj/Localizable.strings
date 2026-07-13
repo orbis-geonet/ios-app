@@ -1,0 +1,451 @@
+/*
+  Localizable.strings
+  Orbis-iOS
+
+  Created by Nikesh Shakya on 28/09/2021.
+  
+*/
+
+// App Permission
+"Enable Location Service" = "Ativar compartilhamento de localização";
+"Please turn on location service from device settings." = "Por favor, ligue o serviço de localização nas configurações do dispositivo.";
+
+
+// Authentication
+"E-mail" = "E-mail";
+"Password" = "Senha";
+"Forgot Password?" = "Esqueceu a senha?";
+"Login" = "Login";
+"Full Name" = "Nome completo";
+"Name" = "Nome";
+"Date of Birth" = "Data de nascimento";
+"Gender" = "Gênero";
+"Register" = "Registrar";
+"Your account has been created successfully" = "Sua conta foi criada com sucesso";
+"Select Gender" = "Selecione gênero";
+"Just taking a peek ?" = "Apenas dando uma olhada?";
+"To get the most out of ORBIS, sign up and take part ... it's fast and free" = "Para aproveitar ao máximo o Orbis, inscreva-se e participe ... é rápido e grátis";
+"register" = "Registrar";
+"fast and free" = "rápido e grátis";
+"I want to sign up" = "quero me inscrever";
+"I already have an account" = "eu já tenho uma conta";
+"Login with" = "Faça o login com";
+"Forgot your password ?" = "Esqueceu sua senha ?";
+"Don't worry, we sent an e-mail to your registered email address so you can reset your password" = "Não se preocupe, enviamos um e-mail para o seu endereço de e-mail cadastrado para que você possa redefinir sua senha";
+"Send" = "Enviar";
+"Your reset password link was successfully sent !" = "Seu link de redefinição foi enviado com sucesso!";
+"You will receive an email to reset your password. Just click on the link and follow the steps !" = "Você vai receber um e-mail para redefinir sua senha. Basta clicar no link e seguir os passos!";
+"by clicking register you accept the " = "Ao clicar em registro você aceita os ";
+
+// Onboarding
+"Welcome to Orbis!" = "Bem-vindo ao Orbis!";
+"A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them." = "Uma rede social de geolocalização criada para mapear os tribos sociais na sua região. Com Orbis, você pode verificar onde esses tribos estão em tempo real e conhecê-los.";
+"Start" = "Começo";
+
+// Feed
+"My Feed" = "Meu Feed";
+"Nearby" = "Perto";
+"Unfollow group stories" = "Desseguir stories do tribo";
+
+// Group
+"Leave" = "Sair";
+"Follow" = "Seguir";
+"Unfollow" = "Desseguir";
+"Report" = "Reportar";
+"Delete" = "Deletar";
+"Share" = "Compartilhar";
+"Choose a group color" = "Escolha a cor do tribo";
+"Type your group name" = "Digite o nome do seu tribo";
+"Tell us more about your group.." = "Conte-nos mais sobre o seu tribo ..";
+"Create Group" = "Criar tribo";
+"It's prohibited to create groups of commercial establishments" = "É proibido criar tribos de estabelecimentos comerciais";
+"Make" = "Fazer";
+"admin" = "admin.";
+"Remove" = "Remover";
+"from admin" = "de admin.";
+"Ban" = "Banir";
+"Unban" = "Desbanir";
+"Places" = "Lugares";
+"Members" = "Membros";
+"Status" = "Status";
+"Groups" = "Tribos";
+"Type here to search groups" = "Digite aqui para pesquisar tribos";
+"Search the name of the group here" = "Procure o nome do tribo aqui";
+"Owned Places" = "Locais prôprios";
+"Group" = "Tribo";
+"Remove from group" = "Remover do tribo";
+"Unhide stories" = "Ver stories";
+
+// Profile
+"Users" = "Usuários";
+"Search users" = "Pesquisar usuários";
+"Photos" = "Fotos";
+"Posts" = "Postagens";
+"Followers" = "Seguidores";
+"Following" = "Seguindo";
+"Follow" = "Seguir";
+"Unfollow" = "Desseguir";
+"Requested" = "Requerida";
+"Connect with Instagram" = "Conecte-se com o Instagram";
+"Connected with instagram" = "Conectado com o Instagram";
+"Connect with Instagram or add photos straight to Orbis" = "Conecte-se com o Instagram ou adicione fotos diretamente no Orbis";
+"There are no publications" = "Não há publicações";
+"This Account is Private" = "Esta conta é privada";
+"Follow this account to see their photos and posts" = "Siga esta conta para ver suas fotos e postagens";
+"Remove Photo" = "Remover foto";
+"Blocked User" = "Usuário bloqueado";
+"Something went wrong trying to fetch user information." = "Algo deu errado ao tentar buscar informações do usuário";
+"Block" = "Bloquear";
+"Are you sure you want to block this user?" = "Você tem certeza que deseja bloquear esse usuário ?";
+
+// Places
+"Get Direction" = "Obter direção";
+"Enter the name of the place here..." = "Digite o nome do lugar aqui ...";
+"Type here the name of the place.." = "Digite aqui o nome do lugar ..";
+"Type the exact address (Optional)" = "Digite o endereço exato (opcional)";
+"Groups in this place" = "Tribos neste lugar";
+"Create Place" = "Criar Lugar";
+"Create place" = "Criar Lugar";
+"This place does not have a description. To include one please press and hold here." = "Este lugar não tem uma descrição. Para incluir uma, pressione e segure aqui";
+"Choose a group" = "Escolha um tribo";
+"Edit Place Description" = "Editar descrição do local";
+"Address" = "Endereço";
+"Telephone" = "Telefone";
+"Schedule" = "Agendar";
+"Website" = "Site";
+"Open in Maps" = "Abrir no Maps";
+"Call" = "Chamada";
+"Go to website" = "Lr para o site";
+"Update Opening Hours" = "Atualizar horário de funcionamento";
+"Type here the address of the place.." = "Escreva aqui o endereço do local..";
+"Enter contact detail for the place.." = "Enter contact detail for the place..";
+"Type here the website link of the place.." = "Insira os dados de contato do local..";
+"Select Open Time" = "Selecione o horário de abertura";
+"Select Close Time" = "Selecione o horário de fechamento";
+"Review" = "Reveja";
+"How many stars would you like to give this place?" = "Quantas Estrelas deseja dar para este lugar?";
+
+// Events
+"Events" = "Eventos";
+"Event" = "Evento";
+"Your Event" = "Seu Evento";
+"Event title" = "Título do evento";
+"Address, street, number, neighborhood, city" = "Endereço, rua, número, bairro, cidade";
+"Date" = "Data";
+"Start" = "Começo";
+"End" = "Fim";
+"Event description" = "Descrição do Evento";
+"Publish event" = "Publicar evento";
+"Select Start Time" = "Selecione a hora de início";
+"Select End Time" = "Selecione a hora do fim";
+"I'm going!" = "Vou!";
+"I'll go" = "Eu irei!";
+"Attend" = "Comparecer";
+"Confirmed" = "Confirmado";
+"From" = "De  ";
+"to" = "  para  ";
+
+// Checkin
+"Check-in" = "Check-in";
+"Check-in" = "Check-in";
+"Search places nearby" = "Procurar lugares perto";
+
+// Post
+"Would like to publish as:" = "Gostaria de publicar como:";
+"Type here about the place, group or whatever you want..." = "Digite aqui sobre o lugar, tribo ou o que você quiser ...";
+"Photo" = "Foto";
+"Check-in" = "Check-in";
+"Video" = "Vídeo";
+"Post" = "Postar";
+"Your Post" = "Sua postagem";
+"Choose a group or user" = "Escolha um tribo ou usuário";
+"Choose a group" = "Escolha um tribo";
+"Recording..." = "Gravando...";
+"Recording stopped." = "Gravação parada.";
+"Report post" = "Denunciar Postagem";
+"Report" = "Reportar";
+"Help us understand what's happening with this post. How would you describe it?" = "Ajude-nos a entender o que está acontecendo com esta postagem. Como você descreveria isso?";
+"Report group" = "Denunciar tribo";
+"Help us understand what's wrong with this group. How would you describe it?" = "Ajude-nos a entender o que há de errado com este tribo. Como você descreveria isso?";
+"Report profile" = "Denunciar o perfil";
+"Help us understand what's wrong with this profile. How would you describe it?" = "Ajude-nos a entender o que há de errado com este perfil. Como você descreveria isso?";
+"Report place" = "Denunciar lugar";
+"Help us understand what's wrong with this place. How would you describe it?" = "Ajude-nos a entender o que há de errado com este lugar. Como você descreveria isso?";
+"Comments" = "Comentários";
+"Write your comment." = "Escreva seu comentário...";
+
+// Messaging
+"Messages" = "Mensagens";
+"You" = "Você";
+"sent an image" = "enviou uma imagem";
+"sent a video" = "enviou um vídeo";
+"Active now" = "Ativo agora";
+"Online" = "Online";
+"Just now" = "Agora mesmo";
+"Type here." = "Digite aqui...";
+"years ago" = "anos atrás";
+"year ago" = "ano atrás";
+"months ago" = "meses antes";
+"month ago" = "  meses atrás";
+"weeks ago" = "semanas atrás";
+"week ago" = "  semana atrás";
+"days ago" = "  dias atrás";
+"day ago" = "dia atrás";
+"hours ago" = "horas atrás";
+"hour ago" = "  uma hora atrás";
+"minutes ago" = "  minutos atrás";
+"minute ago" = "minuto atrás";
+"seconds ago" = "segundos atrás";
+
+// Notification
+"News" = "Notícias";
+"Pending" = "Pendente";
+"Notification" = "Notificação";
+"Accept" = "Aceitar";
+"has requested to follow" = "requisitou te seguir";
+
+// Settings
+"Profile" = "Perfil";
+"Social" = "Social";
+"Preferences" = "Preferências";
+"Settings" = "Configurações";
+"Comment" = "Comente";
+"Rate app" = "Avaliar aplicativo";
+"Invite friends" = "Convide amigos";
+"Terms of service" = "Termos de serviço";
+"Privacy policy" = "Política de Privacidade";
+"Delete my Account" = "Deletar minha conta";
+"Logout" = "Sair";
+"Manage my groups (admin)" = "Gerenciar meus tribos (admin)";
+"Places you follow" = "Lugares que você segue";
+"Your account privacy" = "Sua privacidade de conta";
+"Make my account private" = "Tornar minha conta privada";
+"Language" = "Idioma";
+"Push notification" = "Notificação push";
+"ON" = "Ativado";
+"OFF" = "Desativado";
+"Enter the language name" = "Digite o nome do idioma";
+"Blocked list" = "Lista de bloqueados";
+
+// Language
+"Device language" = "Idioma do aparelho";
+"English" = "Inglês";
+"Chinese" = "chinês";
+"Ukranian" = "Ucraniano";
+"Nepali" = "Nepali.";
+"Hindi" = "hindi";
+"Indonesian" = "indonésio";
+"Japanese" = "japonês";
+"Korean" = "coreano";
+"Malay" = "malaio";
+"Russian" = "russo";
+"Thai" = "tailandês";
+"Urdu" = "urdu";
+"Vietnamise" = "Vietnamise.";
+"Arabic" = "árabe";
+"Polish" = "polonês";
+"Swahili" = "Swahili.";
+"Italian" = "italiano";
+"French" = "francês";
+"German" = "alemão";
+"Turkish" = "turco";
+"Spanish" = "espanhol";
+"Portuguese" = "Português";
+
+// Confirmation popup
+"Confirm delete?" = "Confirmar deleção?";
+"Are you sure you want to delete this post? Once deleted, it cannot be undone." = "Tem certeza de que deseja excluir esta postagem? Uma vez excluído, não pode ser desfeito.";
+"Confirm delete group?" = "Confirmar exclusão do tribo?";
+"Are you sure you want to delete this group? Once deleted, it cannot be undone." = "Tem certeza de que deseja excluir este tribo? Uma vez excluído, não pode ser desfeito.";
+"New Admin Required" = "Novo admin necessário";
+"Do you want to assign a new admin from members list before leaving this group?" = "Você quer atribuir um novo administrador da lista de membros antes de deixar este tribo?";
+"Confirm leave group?" = "Confirme saída do tribo?";
+"Are you sure, you want to leave this group?" = "Você tem certeza de que quer sair deste tribo?";
+"Confirm assign" = "Confirme atribuição";
+"Are you sure you want to assign" = "Tem certeza de que deseja atribuir";
+"as new admin of the group?" = "Como novo admin do tribo?";
+"Account deletion" = "Deletar Conta";
+"Are you sure you want to delete your account? Once deleted, it cannot be recovered." = "Tem certeza de que deseja excluir sua conta? Uma vez excluído, não pode ser recuperado";
+
+// Success Message
+"Post has been reported successfully" = "Post foi denunciado com sucesso";
+"Group has been reported successfully" = "Tribo foi denunciado com sucesso";
+"Profile has been reported successfully" = "O perfil foi denunciado com sucesso";
+"Place has been reported successfully" = "O lugar foi denunciado com sucesso";
+"has been deleted." = "foi deletado.";
+"Password has been changed." = "A senha foi alterada.";
+
+// Subscription
+"Purchase" = "Comprar";
+"Edit" = "Editar";
+"Activate Offer" = "Ativar oferta";
+"Deactivate Offer" = "Desativar oferta";
+"My purchases" = "Minhas compras";
+"Type the name of your offer" = "Digite o nome da sua oferta";
+"Tell us more about your offer" = "Conte-nos mais sobre sua oferta";
+"Type benefit here" = "Digite aqui o benefício";
+"Price" = "Preço";
+"Create Offer" = "Criar oferta";
+"Edit Offer" = "Editar oferta";
+"Benefits of the offer" = "Benefícios da oferta";
+"More benefits" = "Mais benefícios";
+"Fees: %@ | Total: %@" = "Taxas: %@ | Total: %@";
+"Activity" = "Atividade";
+"Offer" = "Oferta";
+"Update offer" = "Atualizar oferta";
+"Select Currency" = "Escolha a moeda";
+"Are you sure you want to delete this benefit?" = "Tem certeza de que deseja excluir este benefício?";
+"Are you sure you want to delete this offer?" = "Tem certeza de que deseja excluir esta oferta?";
+"Are you sure you want to activate all offers?" = "Tem certeza de que deseja ativar todas as ofertas?";
+"Are you sure you want to deactivate all offers?" = "Tem certeza de que deseja desativar todas as ofertas?";
+"Are you sure you want to cancel this purchase?" = "Tem certeza de que deseja cancelar esta comprar?";
+"Your purchase has been confirmed!" = "Sua comprar foi confirmada!";
+"Management" = "Gestão";
+"Clients" = "Clientes";
+"Offers" = "Ofertas";
+"Total Offers" = "Total de ofertas";
+"Total Revenue" = "Receita total";
+"Members Club" = "Clube de Membros";
+"Revenue" = "Receita";
+"Now you can create offers with social incentive for your group and monetize in the \"create offer button\"." = "Agora você pode criar ofertas com incentivo social para seu tribo e monetizar no \"botão criar ofertas\".";
+"Now you can buy offers from the groups and receive gifts, benefits and discounts!" = "Agora você pode se inscrever em tribos e receber brindes, benefícios e descontos!";
+"Month" = "Mês";
+"Trimester" = "Trimestre";
+"Semester" = "Semestre";
+"Year" = "ano";
+"See codes" = "Ver Códigos";
+"in %@x, total: %@" = "em %@x, total: %@";
+"Quantity" = "Quantidade";
+"Purchased Codes" = "Códigos adquiridos";
+"Code" =  "Código";
+"Choose the payment frequency" = "Escolha a frequência de pagamento";
+"Check photos" = "Checar fotos";
+"Photos" = "Fotos";
+"Payment frequency" = "Frequência de Pagamento";
+"Yearly" = "Anual";
+"Monthly" = "Por mês";
+"One Time" = "Venda unitária";
+"Payment in installments" = "Pagamento parcelado";
+"mon" = "mês";
+"yr" = "ano";
+
+// Common
+"Error" = "Erro";
+"this user" = "este usuário";
+"Feed" = "Feed";
+"Cancel" = "Cancelar";
+"Ok" = "OK";
+"Upload photo" = "Upload fotos";
+"Change Photo" = "Mudar foto";
+"Save changes" = "Salvar alterações";
+"Change Password" = "Mudar senha";
+"user" = "do utilizador";
+"Select option" = "Selecione a opção";
+"Select Date of Birth" = "Selecione a data de nascimento";
+"Select Date" = "Selecione a data";
+"Search" = "Busca";
+"Results" = "Resultados";
+"Understood" = "Entendo";
+"View more" = "Veja mais";
+"View less" = "ver menos";
+"Save" = "Salvar";
+"Close" = "Fechar";
+"Enter your text" = "Digite seu texto";
+"Yes" = "Sim";
+"No" = "Não";
+"Warning" = "Aviso";
+"User deleted" = "Usuário deletado";
+"Sunday" = "Domingo";
+"Monday" = "Segunda-feira";
+"Tuesday" = "Terça-feira";
+"Wednesday" = "Quarta-feira";
+"Thursday" = "Quinta-feira";
+"Friday" = "Sexta-feira";
+"Saturday" = "Sábado";
+"Update" = "Atualizar";
+"Text Copied!" = "Texto Copiado!";
+
+// App Error Strings
+"Invalid rating!" = "Classificação inválida!";
+"Please fix highlighted error(s)" = "Corrija os erros destacados";
+"Couldn't complete your request." = "Não foi possível completar sua solicitação.";
+"Google Sign-in failed." = "O login do Google falhou.";
+"Cannot login at the moment!" = "Não é possível fazer login no momento!";
+"Email or password is invalid" = "E-mail ou senha é inválido";
+"Feed is empty." = "Feed está vazio.";
+"News feed is empty." = "O feed de notícias está vazio.";
+"No post has been uploaded to this group yet." = "Nenhum post foi enviado para este tribo ainda.";
+"User feed is empty." = "O feed do usuário está vazio.";
+"No post has been uploaded to this place yet." = "Nenhum post foi post criado neste lugar ainda.";
+"Could not load video" = "Não foi possível carregar o vídeo";
+"Cannot play audio" = "Não é possível tocar o áudio";
+"You have been banned from posting." = "Você foi banido de postar.";
+
+"Invalid link provided" = "Link inválido fornecido";
+"Invalid post type" = "Tipo de postagem inválido.";
+"Please select date of event first." = "Por favor, selecione a data do evento primeiro.";
+"Please select start time of event first." = "Por favor, selecione o horário de início do evento primeiro.";
+"Email app not available." = "Aplicativo de email não disponível.";
+
+"Data is invalid" = "Os dados são inválidos";
+"Null response data" = "Dados de resposta nulos";
+"Contact administrator" = "Contacte o Administrador";
+"Your request has failed." = "Sua solicitação falhou.";
+
+"Not found" = "Não encontrado";
+"Not authorized" = "Não autorizado";
+"Request timeout" = "Tempo limite de solicitação";
+"An error occurred" = "Um erro ocorreu";
+
+"Full name is empty" = "Nome completo está vazio";
+"Email is empty" = "E-mail está vazio";
+"Password is empty" = "A senha está vazia";
+"New Password is empty" = "Nova senha está vazia";
+"Passwords do no match." = "As senhas não correspondem.";
+"Email address is not valid" = "o endereço de email não é válido";
+"Password length must be greater than or equal to 8" = "O comprimento da senha deve ser maior ou igual a 8";
+"One or more required field is missing" = "Um ou mais campo obrigatório está faltando";
+"You are not authorized to perform this operation." = "Você não está autorizado a realizar esta operação.";
+"No user found for given email" = "Nenhum usuário encontrado para o email fornecido";
+"This email-id is associated with social media login" = "Este ID-E-mail está associado ao login da mídia social";
+"Group name is empty" = "Nome do tribo está vazio";
+"Group description is empty" = "Descrição do tribo está vazio";
+"Group image is required" = "A imagem do tribo é necessária";
+"Please chose group base color from available set of colors." = "Por favor, escolha a cor base do tribo a partir do conjunto de cores disponível.";
+"Post description is empty" = "Descrição do post está vazio";
+"Please select at least 1 image" = "Por favor, selecione pelo menos 1 imagem";
+"Place name is empty" = "O nome do lugar está vazio";
+"Please select group before proceeding." = "Por favor, selecione o tribo antes de prosseguir.";
+"Please identify place type first." = "Por favor, identifique o tipo de local primeiro.";
+"Please select place location." = "Por favor, selecione Local Localização.";
+"Please record audio before proceeding." = "Por favor, grave áudio antes de prosseguir.";
+"Please select video before proceeding." = "Por favor, selecione o vídeo antes de prosseguir.";
+"Please select place to checkin" = "Por favor, selecione lugar para checkin";
+"Please select publisher before proceeding." = "Por favor, selecione o editor antes de prosseguir.";
+"Please enter event title" = "Por favor insira o título do evento";
+"Please enter event details" = "Insira os detalhes do evento";
+"Please re-check your scheduled date and time" = "Por favor, verifique sua data e hora agendada";
+"Date of Birth is required" = "Data de nascimento é necessária";
+"Gender is empty" = "Gênero está vazio";
+"Please edit data before saving" = "Por favor, edite dados antes de salvar";
+"Your account might have been deleted previously. Please revoke your Apple ID access to the app and retry again. If you still face the issue, please contact administration." = "Sua conta pode ter sido excluída anteriormente.  Revogue o acesso do seu ID Apple ao aplicativo e tente novamente.  Se você ainda enfrentar o problema, entre em contato com a administração.";
+
+"You have already joined this group" = "Você já se juntou a este tribo";
+"You are not a member of this group" = "Você não é um membro deste tribo";
+"You have already followed this group" = "Você já seguiu este tribo";
+"You have not followed this group yet" = "Você ainda não seguiu este tribo";
+"You are not authorized to perform this action" = "Você não está autorizado a realizar esta ação";
+"Group stories are already unhidden" = "As stories do tribo já estão visível";
+
+"Empty address." = "Endereço vazio.";
+"Empty telephone." = "Telefone vazio.";
+"Empty website." = "Site vazio.";
+"Invalid website." = "Site inválido.";
+"Your account might have been deleted previously. Please revoke your Apple ID access to the app and retry again. If you still face the issue, please contact administration." = "Sua conta pode ter sido excluída anteriormente. Revogue o acesso do seu ID Apple ao aplicativo e tente novamente. Se você ainda enfrentar o problema, entre em contato com a administração.";
+"Please enter subscription name." = "Insira o nome da assinatura.";
+"Please enter subscription description." = "Por favor, insira a descrição da assinatura.";
+"Please enter valid price amount value." = "Insira um valor de preço válido.";
+"Please select payment frequency." = "Selecione a frequência de pagamento.";
+"Installment period should be within the range of %@ - %@" = "O período de parcelamento deve estar dentro do intervalo de %@ - %@";
+"Tribal map is updating" = "O mapa tribal está sendo atualizado";
+"Just a few more seconds" = "Aguarde mais alguns segundos";

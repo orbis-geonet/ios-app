@@ -1,0 +1,336 @@
+/*
+  Localizable.strings
+  Orbis-iOS
+
+  Created by Nikesh Shakya on 28/09/2021.
+  
+*/
+
+// App Permission
+"Enable Location Service" = "Enable Location Service";
+"Please turn on location service from device settings." = "Please turn on location service from device settings.";
+
+// Authentication
+"E-mail" = "ईमेल";
+"Password" = "पासवर्ड";
+"Forgot Password?" = "पासवर्ड भूल गए?";
+"Login" = "लॉग इन";
+"Full Name" = "Full Name";
+"Name" = "नाम";
+"Date of Birth" = "जन्म तिथि";
+"Gender" = "लिंग";
+"Register" = "रजिस्टर करें";
+"Your account has been created successfully" = "Your account has been created successfully";
+"Select Gender" = "Select Gender";
+"Just taking a peek ?" = "Just taking a peek ?";
+"To get the most out of ORBIS, sign up and take part ... it's fast and free" = "To get the most out of ORBIS, sign up and take part ... it's fast and free";
+"register" = "रजिस्टर करें";
+"fast and free" = "fast and free";
+"I want to sign up" = "मैं साइन अप करना चाहता हूँ";
+"I already have an account" = "मेरे पास पहले से एक खाता है";
+"Login with" = "Login with";
+"Forgot your password ?" = "Forgot your password ?";
+"Don't worry, we sent an e-mail to your registered email address so you can reset your password" = "चिंता न करें, हमने आपके पंजीकृत ईमेल पते पर एक ई-मेल भेजा है ताकि आप अपना पासवर्ड रीसेट कर सकें";
+"Send" = "Send";
+"Your reset password link was successfully sent !" = "Your reset password link was successfully sent !";
+"You will receive an email to reset your password. Just click on the link and follow the steps !" = "आपको अपना पासवर्ड रीसेट करने के लिए एक ईमेल मिलेगा। बस लिंक पर क्लिक करें और चरणों का पालन करें !";
+
+// Onboarding
+"Welcome to Orbis!" = "Welcome to Orbis!";
+"A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them." = "A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them.";
+"Start" = "शुरू";
+
+// Feed
+"My Feed" = "मेरा फ़ीड";
+"Nearby" = "आस-पास";
+
+// Group
+"Leave" = "छोड़ें";
+"Follow" = "फ़ॉलो करें";
+"Unfollow" = "अनफ़ॉलो करें";
+"Report" = "रिपोर्ट करें";
+"Delete" = "हटाएँ";
+"Share" = "शेयर करें";
+"Choose a group color" = "Choose a group color";
+"Type your group name" = "Type your group name";
+"Tell us more about your group.." = "Tell us more about your group..";
+"Create Group" = "Create Group";
+"It's prohibited to create groups of commercial establishments" = "It's prohibited to create groups of commercial establishments";
+"Make" = "Make";
+"admin" = "admin";
+"Remove" = "हटाएँ";
+"from admin" = "from admin";
+"Ban" = "Ban";
+"Unban" = "Unban";
+"Places" = "स्थान";
+"Members" = "सदस्य";
+"Status" = "स्थिति";
+"Groups" = "Groups";
+"Type here to search groups" = "Type here to search groups";
+"Owned Places" = "स्वामित्व वाले स्थान";
+"Group" = "Group";
+
+// Profile
+"Photos" = "तस्वीरें";
+"Posts" = "पोस्ट";
+"Followers" = "फ़ॉलोअर्स";
+"Following" = "फ़ॉलोइंग";
+"Follow" = "फ़ॉलो करें";
+"Unfollow" = "अनफ़ॉलो करें";
+"Requested" = "अनुरोध किया गया";
+"Connect with Instagram" = "Instagram से कनेक्ट करें";
+"Connected with instagram" = "Connected with instagram";
+"Connect with Instagram or add photos straight to Orbis" = "Connect with Instagram or add photos straight to Orbis";
+"There are no publications" = "कोई प्रकाशन नहीं है";
+"This Account is Private" = "यह खाता निजी है";
+"Follow this account to see their photos and posts" = "इस खाते की तस्वीरें और पोस्ट देखने के लिए इसे फ़ॉलो करें";
+
+// Places
+"Get Direction" = "दिशा प्राप्त करें";
+"Enter the name of the place here..." = "Enter the name of the place here...";
+"Type here the name of the place.." = "Type here the name of the place..";
+"Type the exact address (Optional)" = "Type the exact address (Optional)";
+"Groups in this place" = "Groups in this place";
+"Create Place" = "स्थान बनाएँ";
+"Create place" = "स्थान बनाएँ";
+"This place has no description" = "This place has no description";
+"Choose a group" = "Choose a group";
+"Edit Place Description" = "स्थान का विवरण संपादित करें";
+
+// Events
+"Events" = "इवेंट";
+"Event" = "इवेंट";
+"Your Event" = "आपका इवेंट";
+"Event title" = "इवेंट का शीर्षक";
+"Address, street, number, neighborhood, city" = "पता, सड़क, नंबर, मोहल्ला, शहर";
+"Date" = "तारीख";
+"Start" = "शुरू";
+"End" = "समाप्त";
+"Event description" = "इवेंट का विवरण";
+"Publish event" = "Publish event";
+"Select Start Time" = "शुरू होने का समय चुनें";
+"Select End Time" = "Select End Time";
+"I'm going!" = "मैं जा रहा हूँ!";
+"I'll go" = "मैं जाऊँगा!";
+"Attend" = "Attend";
+"Confirmed" = "पुष्टि की गई";
+"From" = "से";
+"to" = "से";
+
+// Checkin
+"Check-in" = "Check-in";
+"Check-in" = "Check-in";
+"Search places nearby" = "आस-पास के स्थान खोजें";
+
+// Post
+"Would like to publish as:" = "Would like to publish as:";
+"Type here about the place, group or whatever you want..." = "Type here about the place, group or whatever you want...";
+"Photo" = "तस्वीर";
+"Check-in" = "Check-in";
+"Video" = "वीडियो";
+"Post" = "पोस्ट करें";
+"Your Post" = "आपकी पोस्ट";
+"Choose a group or user" = "Choose a group or user";
+"Choose a group" = "Choose a group";
+"Recording..." = "Recording...";
+"Recording stopped." = "Recording stopped.";
+"Report post" = "Report post";
+"Report" = "रिपोर्ट करें";
+"Help us understand what's happening with this post. How would you describe it?" = "इस पोस्ट के साथ क्या हो रहा है, यह समझने में हमारी मदद करें। आप इसका वर्णन कैसे करेंगे?";
+"Report group" = "Report group";
+"Help us understand what's wrong with this group. How would you describe it?" = "Help us understand what's wrong with this group. How would you describe it?";
+"Report profile" = "Report profile";
+"Help us understand what's wrong with this profile. How would you describe it?" = "Help us understand what's wrong with this profile. How would you describe it?";
+"Report place" = "Report place";
+"Help us understand what's wrong with this place. How would you describe it?" = "Help us understand what's wrong with this place. How would you describe it?";
+"Comments" = "टिप्पणियाँ";
+"Write your comment." = "अपनी टिप्पणी लिखें …";
+
+// Messaging
+"Messages" = "संदेश";
+"You" = "You";
+"sent an image" = "sent an image";
+"sent a video" = "sent a video";
+"Active now" = "Active now";
+"Online" = "ऑनलाइन";
+"Just now" = "Just now";
+"years ago" = "years ago";
+"year ago" = "year ago";
+"months ago" = "months ago";
+"month ago" = "महीने पहले";
+"weeks ago" = "weeks ago";
+"week ago" = "सप्ताह पहले";
+"days ago" = "दिन पहले";
+"day ago" = "day ago";
+"hours ago" = "hours ago";
+"hour ago" = "घंटे पहले";
+"minutes ago" = "मिनट पहले";
+"minute ago" = "minute ago";
+"seconds ago" = "seconds ago";
+
+// Notification
+"News" = "समाचार";
+"Pending" = "लंबित";
+"Notification" = "सूचना";
+"Accept" = "स्वीकार करें";
+
+// Settings
+"Profile" = "प्रोफ़ाइल";
+"Social" = "सोशल";
+"Preferences" = "प्राथमिकताएँ";
+"Settings" = "सेटिंग्स";
+"Comment" = "टिप्पणी";
+"Rate app" = "ऐप को रेट करें";
+"Invite friends" = "दोस्तों को आमंत्रित करें";
+"Terms of service" = "सेवा की शर्तें";
+"Privacy policy" = "गोपनीयता नीति";
+"Delete my Account" = "मेरा खाता हटाएँ";
+"Logout" = "लॉग आउट";
+"Manage my groups (admin)" = "Manage my groups (admin)";
+"Places you follow" = "आप जिन स्थानों को फ़ॉलो करते हैं";
+"Your account privacy" = "Your account privacy";
+"Make my account private" = "मेरा खाता निजी बनाएँ";
+"Language" = "भाषा";
+"Push notification" = "पुश सूचना";
+"ON" = "चालू";
+"OFF" = "बंद";
+"Enter the language name" = "Enter the language name";
+
+// Language
+"Device language" = "डिवाइस की भाषा";
+"English" = "अंग्रेज़ी";
+"Chinese" = "Chinese";
+"Ukranian" = "Ukranian";
+"Nepali" = "Nepali";
+"Hindi" = "Hindi";
+"Indonesian" = "Indonesian";
+"Japanese" = "Japanese";
+"Korean" = "Korean";
+"Malay" = "Malay";
+"Russian" = "Russian";
+"Thai" = "Thai";
+"Urdu" = "Urdu";
+"Vietnamise" = "Vietnamise";
+"Arabic" = "Arabic";
+"Polish" = "Polish";
+"Swahili" = "Swahili";
+"Italian" = "Italian";
+"French" = "French";
+"German" = "German";
+"Turkish" = "Turkish";
+"Spanish" = "Spanish";
+"Portuguese" = "पुर्तगाली";
+
+// Confirmation popup
+"Confirm delete?" = "Confirm delete?";
+"Are you sure you want to delete this post? Once deleted, it cannot be undone." = "क्या आप वाकई इस पोस्ट को हटाना चाहते हैं? एक बार हटाने के बाद, इसे पूर्ववत नहीं किया जा सकता।";
+"Confirm delete group?" = "Confirm delete group?";
+"Are you sure you want to delete this group? Once deleted, it cannot be undone." = "Are you sure you want to delete this group? Once deleted, it cannot be undone.";
+"New Admin Required" = "New Admin Required";
+"Do you want to assign a new admin from members list before leaving this group?" = "Do you want to assign a new admin from members list before leaving this group?";
+"Confirm leave group?" = "Confirm leave group?";
+"Are you sure, you want to leave this group?" = "Are you sure, you want to leave this group?";
+"Confirm assign" = "Confirm assign";
+"Are you sure you want to assign" = "Are you sure you want to assign";
+"as new admin of the group?" = "as new admin of the group?";
+"Account deletion" = "खाता हटाना";
+"Are you sure you want to delete your account? Once deleted, it cannot be recovered." = "क्या आप वाकई अपना खाता हटाना चाहते हैं? एक बार हटाने के बाद, इसे पुनर्प्राप्त नहीं किया जा सकता";
+
+// Success Message
+"Post has been reported successfully" = "Post has been reported successfully";
+"Group has been reported successfully" = "Group has been reported successfully";
+"has been deleted." = "has been deleted.";
+"Password has been changed." = "Password has been changed.";
+
+// Common
+"Error" = "Error";
+"this user" = "this user";
+"Feed" = "फ़ीड";
+"Cancel" = "रद्द करें";
+"Ok" = "ठीक है";
+"Upload photo" = "तस्वीर अपलोड करें";
+"Change Photo" = "तस्वीर बदलें";
+"Save changes" = "Save changes";
+"Change Password" = "पासवर्ड बदलें";
+"user" = "user";
+"Select option" = "Select option";
+"Select Date of Birth" = "Select Date of Birth";
+"Select Date" = "Select Date";
+"Search" = "खोजें";
+"Results" = "Results";
+"Understood" = "समझ गया";
+"View more" = "और देखें";
+"View less" = "कम देखें";
+"Save" = "सहेजें";
+"Close" = "Close";
+"Enter your text" = "अपना टेक्स्ट दर्ज करें";
+"Yes" = "हाँ";
+"No" = "नहीं";
+"Warning" = "Warning";
+
+// App Error Strings
+
+"Couldn't complete your request." = "Couldn't complete your request.";
+"Google Sign-in failed." = "Google Sign-in failed.";
+"Cannot login at the moment!" = "Cannot login at the moment!";
+"Email or password is invalid" = "Email or password is invalid";
+"Feed is empty." = "Feed is empty.";
+"News feed is empty." = "News feed is empty.";
+"No post has been uploaded to this group yet." = "No post has been uploaded to this group yet.";
+"User feed is empty." = "User feed is empty.";
+"No post has been uploaded to this place yet." = "No post has been uploaded to this place yet.";
+"Could not load video" = "Could not load video";
+"Cannot play audio" = "Cannot play audio";
+
+"You have been banned from posting." = "You have been banned from posting.";
+"Invalid link provided" = "Invalid link provided";
+"Invalid post type" = "Invalid post type";
+"Please select date of event first." = "Please select date of event first.";
+"Please select start time of event first." = "Please select start time of event first.";
+"Email app not available." = "Email app not available.";
+
+"Data is invalid" = "Data is invalid";
+"Null response data" = "Null response data";
+"Contact administrator" = "Contact administrator";
+"Your request has failed." = "Your request has failed.";
+
+"Not found" = "Not found";
+"Not authorized" = "Not authorized";
+"Request timeout" = "Request timeout";
+"An error occurred" = "An error occurred";
+
+"Full name is empty" = "Full name is empty";
+"Email is empty" = "Email is empty";
+"Password is empty" = "Password is empty";
+"New Password is empty" = "New password is Empty";
+"Passwords do no match." = "Passwords do no match.";
+"Email address is not valid" = "Email address is not valid";
+"Password length must be greater than or equal to 8" = "Password length must be greater than or equal to 8";
+"One or more required field is missing" = "One or more required field is missing";
+"You are not authorized to perform this operation." = "You are not authorized to perform this operation.";
+"No user found for given email" = "No user found for given email";
+"This email-id is associated with social media login" = "This email-id is associated with social media login";
+"Group name is empty" = "Group name is empty";
+"Group description is empty" = "Group description is empty";
+"Post description is empty" = "Post description is empty";
+"Please select at least 1 image" = "Please select at least 1 image";
+"Place name is empty" = "Place name is empty";
+"Please select group before proceeding." = "Please select group before proceeding.";
+"Please identify place type first." = "Please identify place type first.";
+"Please select place location." = "Please select place location.";
+"Please record audio before proceeding." = "Please record audio before proceeding.";
+"Please select video before proceeding." = "Please select video before proceeding.";
+"Please select place to checkin" = "Please select place to checkin";
+"Please select publisher before proceeding." = "Please select publisher before proceeding.";
+"Please enter event title" = "Please enter event title";
+"Please enter event details" = "कृपया इवेंट का विवरण दर्ज करें";
+"Please re-check your scheduled date and time" = "Please re-check your scheduled date and time";
+"Date of Birth is required" = "Date of Birth is required";
+"Gender is empty" = "Gender is empty";
+"Please edit data before saving" = "Please edit data before saving";
+
+"You have already joined this group" = "You have already joined this group";
+"You are not a member of this group" = "You are not a member of this group";
+"You have already followed this group" = "You have already followed this group";
+"You have not followed this group yet" = "You have not followed this group yet";
+"You are not authorized to perform this action" = "You are not authorized to perform this action";

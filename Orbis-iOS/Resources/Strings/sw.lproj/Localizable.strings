@@ -1,0 +1,336 @@
+/*
+  Localizable.strings
+  Orbis-iOS
+
+  Created by Nikesh Shakya on 28/09/2021.
+  
+*/
+
+// App Permission
+"Enable Location Service" = "Enable Location Service";
+"Please turn on location service from device settings." = "Please turn on location service from device settings.";
+
+// Authentication
+"E-mail" = "Barua pepe";
+"Password" = "Nenosiri";
+"Forgot Password?" = "Umesahau Nenosiri?";
+"Login" = "Ingia";
+"Full Name" = "Full Name";
+"Name" = "Jina";
+"Date of Birth" = "Tarehe ya kuzaliwa";
+"Gender" = "Jinsia";
+"Register" = "Sajili";
+"Your account has been created successfully" = "Your account has been created successfully";
+"Select Gender" = "Select Gender";
+"Just taking a peek ?" = "Just taking a peek ?";
+"To get the most out of ORBIS, sign up and take part ... it's fast and free" = "To get the most out of ORBIS, sign up and take part ... it's fast and free";
+"register" = "Sajili";
+"fast and free" = "fast and free";
+"I want to sign up" = "Nataka kujisajili";
+"I already have an account" = "Tayari nina akaunti";
+"Login with" = "Login with";
+"Forgot your password ?" = "Forgot your password ?";
+"Don't worry, we sent an e-mail to your registered email address so you can reset your password" = "Usiwe na wasiwasi, tumetuma barua pepe kwenye anwani yako ya barua pepe iliyosajiliwa ili uweze kuweka upya nenosiri lako";
+"Send" = "Send";
+"Your reset password link was successfully sent !" = "Your reset password link was successfully sent !";
+"You will receive an email to reset your password. Just click on the link and follow the steps !" = "Utapokea barua pepe ya kuweka upya nenosiri lako. Bofya tu kwenye kiungo na ufuate hatua !";
+
+// Onboarding
+"Welcome to Orbis!" = "Welcome to Orbis!";
+"A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them." = "A geolocation social network created to map the social groups in your region. With Orbis, you can check where those groups are in real time and get to know them.";
+"Start" = "Anza";
+
+// Feed
+"My Feed" = "Mlisho Wangu";
+"Nearby" = "Karibu";
+
+// Group
+"Leave" = "Ondoka";
+"Follow" = "Fuata";
+"Unfollow" = "Acha kufuata";
+"Report" = "Ripoti";
+"Delete" = "Futa";
+"Share" = "Shiriki";
+"Choose a group color" = "Choose a group color";
+"Type your group name" = "Type your group name";
+"Tell us more about your group.." = "Tell us more about your group..";
+"Create Group" = "Create Group";
+"It's prohibited to create groups of commercial establishments" = "It's prohibited to create groups of commercial establishments";
+"Make" = "Make";
+"admin" = "admin";
+"Remove" = "Ondoa";
+"from admin" = "from admin";
+"Ban" = "Ban";
+"Unban" = "Unban";
+"Places" = "Maeneo";
+"Members" = "Wanachama";
+"Status" = "Hali";
+"Groups" = "Groups";
+"Type here to search groups" = "Type here to search groups";
+"Owned Places" = "Maeneo Yanayomilikiwa";
+"Group" = "Group";
+
+// Profile
+"Photos" = "Picha";
+"Posts" = "Machapisho";
+"Followers" = "Wafuasi";
+"Following" = "Unafuata";
+"Follow" = "Fuata";
+"Unfollow" = "Acha kufuata";
+"Requested" = "Imeombwa";
+"Connect with Instagram" = "Unganisha na Instagram";
+"Connected with instagram" = "Connected with instagram";
+"Connect with Instagram or add photos straight to Orbis" = "Connect with Instagram or add photos straight to Orbis";
+"There are no publications" = "Hakuna machapisho";
+"This Account is Private" = "Akaunti Hii ni ya Faragha";
+"Follow this account to see their photos and posts" = "Fuata akaunti hii ili kuona picha na machapisho yao";
+
+// Places
+"Get Direction" = "Pata Maelekezo";
+"Enter the name of the place here..." = "Enter the name of the place here...";
+"Type here the name of the place.." = "Type here the name of the place..";
+"Type the exact address (Optional)" = "Type the exact address (Optional)";
+"Groups in this place" = "Groups in this place";
+"Create Place" = "Unda eneo";
+"Create place" = "Unda eneo";
+"This place has no description" = "This place has no description";
+"Choose a group" = "Choose a group";
+"Edit Place Description" = "Hariri Maelezo ya Eneo";
+
+// Events
+"Events" = "Matukio";
+"Event" = "Tukio";
+"Your Event" = "Tukio Lako";
+"Event title" = "Kichwa cha tukio";
+"Address, street, number, neighborhood, city" = "Anwani, mtaa, nambari, mtaa, jiji";
+"Date" = "Tarehe";
+"Start" = "Anza";
+"End" = "Mwisho";
+"Event description" = "Maelezo ya Tukio";
+"Publish event" = "Publish event";
+"Select Start Time" = "Chagua Muda wa Kuanza";
+"Select End Time" = "Select End Time";
+"I'm going!" = "Ninaenda!";
+"I'll go" = "Nitaenda!";
+"Attend" = "Attend";
+"Confirmed" = "Imethibitishwa";
+"From" = "Kutoka";
+"to" = "hadi";
+
+// Checkin
+"Check-in" = "Check-in";
+"Check-in" = "Check-in";
+"Search places nearby" = "Tafuta maeneo ya karibu";
+
+// Post
+"Would like to publish as:" = "Would like to publish as:";
+"Type here about the place, group or whatever you want..." = "Type here about the place, group or whatever you want...";
+"Photo" = "Picha";
+"Check-in" = "Check-in";
+"Video" = "Video";
+"Post" = "Chapisha";
+"Your Post" = "Chapisho Lako";
+"Choose a group or user" = "Choose a group or user";
+"Choose a group" = "Choose a group";
+"Recording..." = "Recording...";
+"Recording stopped." = "Recording stopped.";
+"Report post" = "Report post";
+"Report" = "Ripoti";
+"Help us understand what's happening with this post. How would you describe it?" = "Tusaidie kuelewa kinachoendelea na chapisho hili. Ungelielezeaje?";
+"Report group" = "Report group";
+"Help us understand what's wrong with this group. How would you describe it?" = "Help us understand what's wrong with this group. How would you describe it?";
+"Report profile" = "Report profile";
+"Help us understand what's wrong with this profile. How would you describe it?" = "Help us understand what's wrong with this profile. How would you describe it?";
+"Report place" = "Report place";
+"Help us understand what's wrong with this place. How would you describe it?" = "Help us understand what's wrong with this place. How would you describe it?";
+"Comments" = "Maoni";
+"Write your comment." = "Andika maoni yako …";
+
+// Messaging
+"Messages" = "Ujumbe";
+"You" = "You";
+"sent an image" = "sent an image";
+"sent a video" = "sent a video";
+"Active now" = "Active now";
+"Online" = "Mtandaoni";
+"Just now" = "Just now";
+"years ago" = "years ago";
+"year ago" = "year ago";
+"months ago" = "months ago";
+"month ago" = "mwezi uliopita";
+"weeks ago" = "weeks ago";
+"week ago" = "wiki iliyopita";
+"days ago" = "siku zilizopita";
+"day ago" = "day ago";
+"hours ago" = "hours ago";
+"hour ago" = "saa iliyopita";
+"minutes ago" = "dakika zilizopita";
+"minute ago" = "minute ago";
+"seconds ago" = "seconds ago";
+
+// Notification
+"News" = "Habari";
+"Pending" = "Inasubiri";
+"Notification" = "Arifa";
+"Accept" = "Kubali";
+
+// Settings
+"Profile" = "Wasifu";
+"Social" = "Kijamii";
+"Preferences" = "Mapendeleo";
+"Settings" = "Mipangilio";
+"Comment" = "Toa maoni";
+"Rate app" = "Kadiria programu";
+"Invite friends" = "Alika marafiki";
+"Terms of service" = "Masharti Ya Huduma";
+"Privacy policy" = "Sera ya Faragha";
+"Delete my Account" = "Futa Akaunti Yangu";
+"Logout" = "Toka";
+"Manage my groups (admin)" = "Manage my groups (admin)";
+"Places you follow" = "Maeneo unayofuata";
+"Your account privacy" = "Your account privacy";
+"Make my account private" = "Fanya akaunti yangu kuwa ya faragha";
+"Language" = "Lugha";
+"Push notification" = "Arifa za kushtua";
+"ON" = "Washa";
+"OFF" = "Zima";
+"Enter the language name" = "Enter the language name";
+
+// Language
+"Device language" = "Lugha ya kifaa";
+"English" = "Kiingereza";
+"Chinese" = "Chinese";
+"Ukranian" = "Ukranian";
+"Nepali" = "Nepali";
+"Hindi" = "Hindi";
+"Indonesian" = "Indonesian";
+"Japanese" = "Japanese";
+"Korean" = "Korean";
+"Malay" = "Malay";
+"Russian" = "Russian";
+"Thai" = "Thai";
+"Urdu" = "Urdu";
+"Vietnamise" = "Vietnamise";
+"Arabic" = "Arabic";
+"Polish" = "Polish";
+"Swahili" = "Swahili";
+"Italian" = "Italian";
+"French" = "French";
+"German" = "German";
+"Turkish" = "Turkish";
+"Spanish" = "Spanish";
+"Portuguese" = "Kireno";
+
+// Confirmation popup
+"Confirm delete?" = "Confirm delete?";
+"Are you sure you want to delete this post? Once deleted, it cannot be undone." = "Una uhakika unataka kufuta chapisho hili? Likishafutwa, haliwezi kurejeshwa.";
+"Confirm delete group?" = "Confirm delete group?";
+"Are you sure you want to delete this group? Once deleted, it cannot be undone." = "Are you sure you want to delete this group? Once deleted, it cannot be undone.";
+"New Admin Required" = "New Admin Required";
+"Do you want to assign a new admin from members list before leaving this group?" = "Do you want to assign a new admin from members list before leaving this group?";
+"Confirm leave group?" = "Confirm leave group?";
+"Are you sure, you want to leave this group?" = "Are you sure, you want to leave this group?";
+"Confirm assign" = "Confirm assign";
+"Are you sure you want to assign" = "Are you sure you want to assign";
+"as new admin of the group?" = "as new admin of the group?";
+"Account deletion" = "Kufuta akaunti";
+"Are you sure you want to delete your account? Once deleted, it cannot be recovered." = "Una uhakika unataka kufuta akaunti yako? Ikishafutwa, haiwezi kurejeshwa";
+
+// Success Message
+"Post has been reported successfully" = "Post has been reported successfully";
+"Group has been reported successfully" = "Group has been reported successfully";
+"has been deleted." = "has been deleted.";
+"Password has been changed." = "Password has been changed.";
+
+// Common
+"Error" = "Error";
+"this user" = "this user";
+"Feed" = "Mlisho";
+"Cancel" = "Ghairi";
+"Ok" = "SAWA";
+"Upload photo" = "Pakia picha";
+"Change Photo" = "Badilisha picha";
+"Save changes" = "Save changes";
+"Change Password" = "Badilisha Nenosiri";
+"user" = "user";
+"Select option" = "Select option";
+"Select Date of Birth" = "Select Date of Birth";
+"Select Date" = "Select Date";
+"Search" = "Tafuta";
+"Results" = "Results";
+"Understood" = "Nimeelewa";
+"View more" = "ona zaidi";
+"View less" = "ona kidogo";
+"Save" = "Hifadhi";
+"Close" = "Close";
+"Enter your text" = "Weka maandishi yako";
+"Yes" = "Ndiyo";
+"No" = "Hapana";
+"Warning" = "Warning";
+
+// App Error Strings
+
+"Couldn't complete your request." = "Couldn't complete your request.";
+"Google Sign-in failed." = "Google Sign-in failed.";
+"Cannot login at the moment!" = "Cannot login at the moment!";
+"Email or password is invalid" = "Email or password is invalid";
+"Feed is empty." = "Feed is empty.";
+"News feed is empty." = "News feed is empty.";
+"No post has been uploaded to this group yet." = "No post has been uploaded to this group yet.";
+"User feed is empty." = "User feed is empty.";
+"No post has been uploaded to this place yet." = "No post has been uploaded to this place yet.";
+"Could not load video" = "Could not load video";
+"Cannot play audio" = "Cannot play audio";
+
+"You have been banned from posting." = "You have been banned from posting.";
+"Invalid link provided" = "Invalid link provided";
+"Invalid post type" = "Invalid post type";
+"Please select date of event first." = "Please select date of event first.";
+"Please select start time of event first." = "Please select start time of event first.";
+"Email app not available." = "Email app not available.";
+
+"Data is invalid" = "Data is invalid";
+"Null response data" = "Null response data";
+"Contact administrator" = "Contact administrator";
+"Your request has failed." = "Your request has failed.";
+
+"Not found" = "Not found";
+"Not authorized" = "Not authorized";
+"Request timeout" = "Request timeout";
+"An error occurred" = "An error occurred";
+
+"Full name is empty" = "Full name is empty";
+"Email is empty" = "Email is empty";
+"Password is empty" = "Password is empty";
+"New Password is empty" = "New password is Empty";
+"Passwords do no match." = "Passwords do no match.";
+"Email address is not valid" = "Email address is not valid";
+"Password length must be greater than or equal to 8" = "Password length must be greater than or equal to 8";
+"One or more required field is missing" = "One or more required field is missing";
+"You are not authorized to perform this operation." = "You are not authorized to perform this operation.";
+"No user found for given email" = "No user found for given email";
+"This email-id is associated with social media login" = "This email-id is associated with social media login";
+"Group name is empty" = "Group name is empty";
+"Group description is empty" = "Group description is empty";
+"Post description is empty" = "Post description is empty";
+"Please select at least 1 image" = "Please select at least 1 image";
+"Place name is empty" = "Place name is empty";
+"Please select group before proceeding." = "Please select group before proceeding.";
+"Please identify place type first." = "Please identify place type first.";
+"Please select place location." = "Please select place location.";
+"Please record audio before proceeding." = "Please record audio before proceeding.";
+"Please select video before proceeding." = "Please select video before proceeding.";
+"Please select place to checkin" = "Please select place to checkin";
+"Please select publisher before proceeding." = "Please select publisher before proceeding.";
+"Please enter event title" = "Please enter event title";
+"Please enter event details" = "Tafadhali weka maelezo ya tukio";
+"Please re-check your scheduled date and time" = "Please re-check your scheduled date and time";
+"Date of Birth is required" = "Date of Birth is required";
+"Gender is empty" = "Gender is empty";
+"Please edit data before saving" = "Please edit data before saving";
+
+"You have already joined this group" = "You have already joined this group";
+"You are not a member of this group" = "You are not a member of this group";
+"You have already followed this group" = "You have already followed this group";
+"You have not followed this group yet" = "You have not followed this group yet";
+"You are not authorized to perform this action" = "You are not authorized to perform this action";
