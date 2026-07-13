@@ -30,7 +30,7 @@ This repository is the **native iOS client** (Swift). It's a thin client that co
 - **Profiles** — User profiles with tribes, followers / following, and personal activity feeds.
 - **Notifications** — Real-time push notifications (Firebase Cloud Messaging).
 
-**Sign-in:** email / password (Firebase Auth), Google, Facebook, and Sign in with Apple.
+**Sign-in:** email / password (Firebase Auth), Google, and Sign in with Apple.
 
 ## How it works
 
@@ -98,8 +98,6 @@ Then edit `Config/Secrets.xcconfig`. Each key, what it is, and where to get it:
 | `GOOGLE_API_KEY_PRODUCTION` | Google Maps + Places SDK key for the production build. | Google Cloud Console → Credentials (production project) |
 | `BRANCH_KEY_LIVE` | Branch.io deep-link key, live environment (`key_live_…`). | Branch dashboard → Account Settings |
 | `BRANCH_KEY_TEST` | Branch.io deep-link key, test environment (`key_test_…`). | Branch dashboard → Account Settings |
-| `FACEBOOK_CLIENT_TOKEN_PRODUCTION` | Facebook SDK client token for the production app. | Meta for Developers → App (prod) → Settings → Advanced → Client token |
-| `FACEBOOK_CLIENT_TOKEN_STAGING` | Facebook SDK client token for the staging app. | Meta for Developers → App (staging) → Settings → Advanced → Client token |
 
 > ⚠️ **Never commit this file.** It is already included in `.gitignore`.
 
